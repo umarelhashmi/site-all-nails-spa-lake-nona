@@ -1,0 +1,1004 @@
+{
+  "extractedAt": "2026-10-28T15:22:35.576Z",
+  "businessInfo": {
+    "name": "ALL NAILS & SPA LAKE NONA",
+    "categories": [
+      "Nail salon"
+    ],
+    "merchantDescription": "All Nails & Spa Lake Nona offers modern luxury nail services in a clean and welcoming environment. We specialize in trendy nail designs, acrylic nail designs, gel X, builder gel, dipping powder, pedicures and more. Conveniently located in Lake Nona, just minutes from Orlando International Airport.",
+    "rating": 4.7,
+    "totalReviews": 480,
+    "starBreakdown": {
+      "5_star": 429,
+      "4_star": 15,
+      "3_star": 5,
+      "2_star": 9,
+      "1_star": 22
+    },
+    "placeId": "ChIJy92_SNJj54gRTiGiGf_BBmo",
+    "cidHex": "0x88e763d248bfddcb:0x6a06c1ff19a2214e",
+    "cidDecimal": "7640007119271502158",
+    "knowledgeGraphId": "/g/11b6_mp08q",
+    "ownerBusinessId": "13699561632410994916",
+    "ownerContributorId": "103204353840566045766",
+    "ownerAvatarUrl": "https://lh3.googleusercontent.com/-nczL4yo7dPU/AAAAAAAAAAI/AAAAAAAAAAA/7tySUmeZgjY/s44-p-k-no-ns-nd/photo.jpg",
+    "localOwnerAvatar": "assets/images/google/owner-avatar.jpg",
+    "address": {
+      "fullAddress": "9356 Narcoossee Rd, Orlando, FL 32827",
+      "street": "9356 Narcoossee Rd",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32827",
+      "country": "US",
+      "neighborhood": "Southeast Orlando",
+      "locatedIn": "NONA PARK",
+      "locatedInCid": "0x88e7622ec9b8edc7:0xa45ab2dc5c69cbbb",
+      "plusCode": "CPJV+82 Orlando, Florida",
+      "globalPlusCode": "76WWCPJV+82",
+      "coordinates": {
+        "latitude": 28.4308302,
+        "longitude": -81.2573817
+      }
+    },
+    "contact": {
+      "phone": "(407) 270-5969",
+      "phoneE164": "+14072705969",
+      "phoneHref": "tel:+14072705969",
+      "website": "https://www.instagram.com/allnailsspa.lakenona?stkn=NDAwMG0wNTc3bWVn&utm_source=qr",
+      "websiteDisplay": "instagram.com",
+      "instagramUrl": "https://www.instagram.com/allnailsspa.lakenona/",
+      "facebookUrl": "https://www.facebook.com/p/All-Nails-Spa-Lake-Nona-61589249850732/",
+      "googleMapsUrl": "https://www.google.com/maps/place/ALL+NAILS+%26+SPA+LAKE+NONA/@28.4308302,-81.2573817,17z/data=!3m1!4b1!4m6!3m5!1s0x88e763d248bfddcb:0x6a06c1ff19a2214e!8m2!3d28.4308302!4d-81.2573817!16s%2Fg%2F11b6_mp08q"
+    },
+    "hours": {
+      "byDay": {
+        "Monday": "9:30 AM–7 PM",
+        "Tuesday": "9:30 AM–7 PM",
+        "Wednesday": "9:30 AM–7 PM",
+        "Thursday": "9:30 AM–7 PM",
+        "Friday": "9:30 AM–7 PM",
+        "Saturday": "9:30 AM–7 PM",
+        "Sunday": "11 AM–5 PM"
+      },
+      "summary": "Mon–Sat: 9:30 AM – 7:00 PM | Sun: 11:00 AM – 5:00 PM",
+      "timezone": "America/New_York"
+    }
+  },
+  "about": {
+    "Service options": [
+      {
+        "id": "/geo/type/establishment_poi/has_onsite_services",
+        "label": "Onsite services",
+        "available": true,
+        "statusText": "Onsite services available"
+      }
+    ],
+    "Accessibility": [
+      {
+        "id": "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+        "label": "Wheelchair accessible entrance",
+        "available": true,
+        "statusText": "Has wheelchair accessible entrance"
+      },
+      {
+        "id": "/geo/type/establishment_poi/has_wheelchair_accessible_parking",
+        "label": "Wheelchair accessible parking lot",
+        "available": true,
+        "statusText": "Has wheelchair accessible parking lot"
+      },
+      {
+        "id": "/geo/type/establishment_poi/has_wheelchair_accessible_restroom",
+        "label": "Wheelchair accessible restroom",
+        "available": true,
+        "statusText": "Has wheelchair accessible restroom"
+      }
+    ],
+    "Amenities": [
+      {
+        "id": "/geo/type/establishment_poi/has_restroom",
+        "label": "Restroom",
+        "available": true,
+        "statusText": "Has restroom"
+      },
+      {
+        "id": "/geo/type/establishment_poi/has_wi_fi",
+        "label": "Wi-Fi",
+        "available": true,
+        "statusText": "Has Wi-Fi"
+      }
+    ],
+    "Planning": [
+      {
+        "id": "/geo/type/establishment_poi/accepts_walk_ins",
+        "label": "Accepts walk-ins",
+        "available": true,
+        "statusText": "Accepts walk-ins"
+      }
+    ],
+    "Payments": [
+      {
+        "id": "/geo/type/establishment_poi/pay_credit_card",
+        "label": "Credit cards",
+        "available": true,
+        "statusText": "Accepts credit cards"
+      },
+      {
+        "id": "/geo/type/establishment_poi/pay_debit_card",
+        "label": "Debit cards",
+        "available": true,
+        "statusText": "Accepts debit cards"
+      },
+      {
+        "id": "/geo/type/establishment_poi/pay_mobile_nfc",
+        "label": "NFC mobile payments",
+        "available": true,
+        "statusText": "Accepts NFC mobile payments"
+      },
+      {
+        "id": "/geo/type/establishment_poi/pay_credit_card_types_accepted",
+        "label": "Credit cards",
+        "available": false,
+        "statusText": "Credit cards"
+      }
+    ],
+    "Children": [
+      {
+        "id": "/geo/type/establishment_poi/welcomes_children",
+        "label": "Good for kids",
+        "available": true,
+        "statusText": "Good for kids"
+      }
+    ]
+  },
+  "ownerUpdates": [
+    {
+      "postId": "2582260242590369006",
+      "date": "Jul 4, 2026",
+      "text": "✨ Treat your feet to the care they deserve.\nRelax, refresh, and leave feeling your best. 💆‍♀️🦶\nBook your next pedicure at All Nails & Spa Lake Nona! 💕",
+      "cta": "Call now",
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/geougc/AF1QipOWSMul50OsE48WNP-9644dHiCLb-RZS90v1D5s=s1200"
+      ],
+      "localPhotos": [
+        "assets/images/google/owner-update-1-1.jpg"
+      ]
+    },
+    {
+      "postId": "7751624679938966446",
+      "date": "Jul 2, 2026",
+      "text": "Welcome to the New All Nails & Spa Lake Nona! 💛\n\nWe sincerely appreciate the support of both our loyal and new guests.\n\nAs part of our transition under new ownership, some pricing and payment policies have been updated. Our current pricing and payment information are available in the salon, and our team is always happy to answer any questions before your service.\n\nThank you for your understanding and continued support. We look forward to seeing you soon!",
+      "cta": "Call now",
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/geougc/AF1QipNYXT1uJCdkXqoI-uBAt0QIcMGbRuoxepVotj03=s1200"
+      ],
+      "localPhotos": [
+        "assets/images/google/owner-update-2-1.jpg"
+      ]
+    },
+    {
+      "postId": "4795785637181416613",
+      "date": "Jul 1, 2026",
+      "text": "✨ Summer Color Pop Nails\n\nLooking for a fun, colorful summer nail set? 🌈💅\n\nThis custom acrylic design features vibrant colors with 3D bubble details for a bold and playful look. Every set is handcrafted with care to match your unique style.\n\n📍All Nails & Spa – Lake Nona\n📞 Call us today to book your appointment. Walk-ins are welcome!",
+      "cta": "Call now",
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/geougc/AF1QipPep8g4a06unSTpHdz1RI32q-izvmOK_0PFMvTl=s1200",
+        "https://lh3.googleusercontent.com/geougc/AF1QipOZcMF2vsL7BDqDJhMZuCU4DChKbozMYAkIg0zB=s1200"
+      ],
+      "localPhotos": [
+        "assets/images/google/owner-update-3-1.jpg",
+        "assets/images/google/owner-update-3-2.jpg"
+      ]
+    },
+    {
+      "postId": "4274111414999442368",
+      "date": "Jun 27, 2026",
+      "text": "✨ Classic French Acrylic\n\nLooking for a timeless, elegant nail set?\n\nOur classic French acrylic design is perfect for any occasion—clean, sophisticated, and long-lasting.\n\n✨ Custom shapes & lengths available.\n\n📍 9356 Narcoossee Rd, Orlando, FL 32827\n\n📞 Call us today to book your appointment.",
+      "cta": "Call now",
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/geougc/AF1QipOaI4RZKC0mO9rSqfv1fAEEwzEmjSUmIhPQvZx6=s1200"
+      ],
+      "localPhotos": [
+        "assets/images/google/owner-update-4-1.jpg"
+      ]
+    }
+  ],
+  "reviewSummary": {
+    "highlightedQuotes": [
+      {
+        "quote": "\"Place has been remodeled with new owners, very nice and friendly service.\"",
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNva29fSVNREAE",
+        "rating": 5,
+        "contributorUrl": "https://www.google.com/maps/contrib/111003545033358994950?hl=en-US"
+      },
+      {
+        "quote": "\"Atmosphere and people gave out a good vibe.\"",
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNMdUtfeXVnRRAB",
+        "rating": 5,
+        "contributorUrl": "https://www.google.com/maps/contrib/108300523601184151994?hl=en-US"
+      }
+    ],
+    "topics": [
+      {
+        "topicId": "BWEW2TAIzEY",
+        "topic": "inspo nails",
+        "mentionsCount": 2
+      },
+      {
+        "topicId": "AeUsWqKUqZc",
+        "topic": "foot massages",
+        "mentionsCount": 5
+      },
+      {
+        "topicId": "ICIutC-v0m0",
+        "topic": "newly renovated",
+        "mentionsCount": 2
+      },
+      {
+        "topicId": "DukFdBtQwOY",
+        "topic": "kind staff",
+        "mentionsCount": 18
+      },
+      {
+        "topicId": "pILsVSu1kqE",
+        "topic": "new ownership",
+        "mentionsCount": 12
+      },
+      {
+        "topicId": "AUSf-HCpzQY",
+        "topic": "nail designs",
+        "mentionsCount": 17
+      },
+      {
+        "topicId": "JMYmvD8HgrQ",
+        "topic": "new management",
+        "mentionsCount": 7
+      },
+      {
+        "topicId": "JmI0lbu_ko4",
+        "topic": "modern salon",
+        "mentionsCount": 2
+      },
+      {
+        "topicId": "FO2nth9IwHQ",
+        "topic": "attention to detail",
+        "mentionsCount": 22
+      },
+      {
+        "topicId": "bfVcrKFIy2s",
+        "topic": "passion for work",
+        "mentionsCount": 2
+      }
+    ]
+  },
+  "businessPhotos": [
+    {
+      "index": 1,
+      "originalUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLer6kq9JvbNQq8hJ2Lr0JTnhnXRPIp0CYC_3UtFlCsSmfLr8ebnPL4V_KDTduTvczp1VsXkiADP1JzLc_tFhfu9JxE8AhH5qNG-IvZixDoL4UGaThaN2i87MV_biS14avDo8Ubdrg=s1200",
+      "localPath": "assets/images/google/google-photo-01.jpg"
+    },
+    {
+      "index": 2,
+      "originalUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLdaL7NG921HCvgzE6sNpYxPWFJ9ZWszj-T5ON3J7u0pRwGkMyRnO9_AyHEjQpO8jRentyWsohC-iaWMWAvKW2PcZQWnK6pNoXz9YYhpVuzPJAyjazdz-_93An6aLV1EkPKLe0sBStEiHtk=s1200",
+      "localPath": "assets/images/google/google-photo-02.jpg"
+    },
+    {
+      "index": 3,
+      "originalUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLfIS0llbmqt7TI-pxnecpBUakBnj4VQsIXaiRCZb6r7Q98XkAaTqx_sx3pDoCSpv1sDk1nhgGe0fjLYVa-xHVMnKTXWwu-OD4ddIEyQ3obbWgaSq85XuZo4oIJS2y-7aos1L2sZ1ImVBXmk=s1200",
+      "localPath": "assets/images/google/google-photo-03.jpg"
+    },
+    {
+      "index": 4,
+      "originalUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeV4vwZ-AFTjboaSr07Yg2tNiiRvczbkVky9FS9v_XE2f2QEmTJsfbj0_Otj_gYrdz9-S8cji63_ZrjF-QpnGPK9j10avNFIV1zMIjJmT55AWlDgapYmSIVw-7k9aMSKt7GnfxPJu5iXIiy=s1200",
+      "localPath": "assets/images/google/google-photo-04.jpg"
+    },
+    {
+      "index": 5,
+      "originalUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeSbE3YIl1kW4XtoWSwQteQkXKWCloDaE6pJfCxYDKx6zrJRSz0fna6Kc1F92G4wbOJPZn2KVIuTbLQVWB4GGIEv-JsZZNchM_8v44qU0DpbWAxq_OQnwGpt_D9LJU0ZF2QlUYFnwj_b60=s1200",
+      "localPath": "assets/images/google/google-photo-05.jpg"
+    },
+    {
+      "index": 6,
+      "originalUrl": "https://lh3.googleusercontent.com/geougc/AF1QipOWSMul50OsE48WNP-9644dHiCLb-RZS90v1D5s=s1200",
+      "localPath": "assets/images/google/google-photo-06.jpg"
+    },
+    {
+      "index": 7,
+      "originalUrl": "https://lh3.googleusercontent.com/geougc/AF1QipNYXT1uJCdkXqoI-uBAt0QIcMGbRuoxepVotj03=s1200",
+      "localPath": "assets/images/google/google-photo-07.jpg"
+    },
+    {
+      "index": 8,
+      "originalUrl": "https://lh3.googleusercontent.com/geougc/AF1QipPep8g4a06unSTpHdz1RI32q-izvmOK_0PFMvTl=s1200",
+      "localPath": "assets/images/google/google-photo-08.jpg"
+    },
+    {
+      "index": 9,
+      "originalUrl": "https://lh3.googleusercontent.com/geougc/AF1QipOZcMF2vsL7BDqDJhMZuCU4DChKbozMYAkIg0zB=s1200",
+      "localPath": "assets/images/google/google-photo-09.jpg"
+    },
+    {
+      "index": 10,
+      "originalUrl": "https://lh3.googleusercontent.com/geougc/AF1QipOaI4RZKC0mO9rSqfv1fAEEwzEmjSUmIhPQvZx6=s1200",
+      "localPath": "assets/images/google/google-photo-10.jpg"
+    },
+    {
+      "index": 11,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RcDim1yoa36uEAW091PSIlVWewV3cn2MvuFhW4lUHjrAApRdUxXCoj9AleLKiElB3KWJArkYl1xoXxXBMYIkmbRS1WcRppV2GRvZg4eIo_h8BLlYduWeUMv1aXpvoWlq2KF6nPXx_9v-2r=s1200",
+      "localPath": "assets/images/google/google-photo-11.jpg"
+    },
+    {
+      "index": 12,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8_RISbDVRvQUq2abURxU_2WZLJhmYHan_etblHIJ5BcHCK4eSo7yE6WKwTq2XZZYiTlLUYlv0wp4LcNZfzfpB9LQ-Z6fIix3an-VZAUubaHUKrbxmWqeJZWOVBR0orD2X2uLCqY-tDyDd=s1200",
+      "localPath": "assets/images/google/google-photo-12.jpg"
+    },
+    {
+      "index": 13,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SxBkvKKeddhGLkmK8J8q0ikodNhcyy7VVFwbdhIU40SLs3o4Re7XxZ198r6ko2Iw_ilkZDKZJYU_xRL7Nl-IGYbjst52RUqcRepCVk8QEYGJ3K6bXEMx_nFC1DEGIHQDM_GohCuV10tYo=s1200",
+      "localPath": "assets/images/google/google-photo-13.jpg"
+    },
+    {
+      "index": 14,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rc0iByEWKKAGFTYtzL3C3498FvdRBR7-DX246MSoKsH1EKsKbqcyE1LWDf_ryfhq2LowXLy_vKz1LdqCjlCcvPCuAnHQ1EgIpCm-FLjLtHq9IyU2ucjFtIvWa47domcpLBmolwr5vTeB0=s1200",
+      "localPath": "assets/images/google/google-photo-14.jpg"
+    },
+    {
+      "index": 15,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQq6nZ7JWUc12tX8x0t2EKGthaXupHHusj82e9mKEU7fUrjVoQh-MC7sl57pqow2wyDq4fX_81DnoGHQfujfW3_PoxkIoaYfopl96P88zmPxS4Au3WExnWxnkF6pY-KiqkqnNh3s7Xfpev=s1200",
+      "localPath": "assets/images/google/google-photo-15.jpg"
+    },
+    {
+      "index": 16,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJfTOrqLyh9BP_SnXIQMAVFph95RnR5lgf9tvcCQmJNa3S1njJ3l2j0HcXNMv-x67hbaywDsTbVxv8mO8eLj1NGL2U3zKWGtwGfklg2JIBxIEEgAOz-aKaPBabFJ80ZMaWbh8X1ZJAPR8v=s1200",
+      "localPath": "assets/images/google/google-photo-16.jpg"
+    },
+    {
+      "index": 17,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9REC8PRmDuS_Y3MD62Frcpvm7j-yQkr1Ge6H0lQu2jbHZEecEbPF2DbKPQQfDvHipCuETP4pKuMQFZ0Wt3mJ2pqYt1TfkD-BM217WZojuGyLoU_RxXVqklCG6LZMe9Nxpwym5hVP5WleJEf=s1200",
+      "localPath": "assets/images/google/google-photo-17.jpg"
+    },
+    {
+      "index": 18,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SM2BcX_Z7aIkFokQHqKEikTDCefVFlC_XLii79OMy0W9hmV-nHi_I9iFchGrGxxiXuB1Y-M7D_cbAXLK3PQKdYjro037LBgUxHqL7OXOS9MSD2apkOZA19gNbSa8gZ6LwTBtBCmaNRouYN=s1200",
+      "localPath": "assets/images/google/google-photo-18.jpg"
+    },
+    {
+      "index": 19,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q6TiWXim-zEVm0mgP8ApfSFfQFsQDVYH-xzpg373kvEJc4qHRRr_Ek7_ACcFS0jHWl_j0kGuJdqpk6H5r7ww1EXIMQ7ofW6wCiY0DRVT05fXNPQFrkfHJ17APJJH29z_Am5txsjf3sK8hP=s1200",
+      "localPath": "assets/images/google/google-photo-19.jpg"
+    },
+    {
+      "index": 20,
+      "originalUrl": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TgWPuCwOz0LDmOp2nsZ2oGOZn0k1anEFIfgHWlNrDKhwAsHgWF0-CqSmfCqE_WsrwtZ-YgWKDvT4VTYlOkr7zxJARUj5qdKCNhLz9ta-JTKTw_FoIp-BGWjiWyMYqfZeolJjxKq_4OWEs=s1200",
+      "localPath": "assets/images/google/google-photo-20.jpg"
+    }
+  ],
+  "reviewsCountExtracted": 23,
+  "reviews": [
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25Wb1JtdDJaWFpuTUhORExVWmZibWd6V2taRmJIYxAB",
+      "sortBucket": "newest",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Cindy Acevedo",
+      "reviewerBadge": "2 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVbYtnff-blknpTSTKJbhFwqdNLMEXVOYhqyO86IZp_LSB9Siop=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/114404629653713210223?hl=en-US",
+      "reviewerContributorId": "114404629653713210223",
+      "reviewerTotalReviews": 2,
+      "reviewerTotalPhotos": 2,
+      "rating": 5,
+      "relativeDate": "Edited 5 days ago",
+      "timestampMicroseconds": 1784400735157299,
+      "updatedTimestampMicroseconds": 1792704390400857,
+      "text": "Amazing experience!!!! 🤩",
+      "ownerResponse": "Thank you, Cindy! ❤️ We’re so glad you had an amazing experience with us. We truly appreciate your support and can’t wait to welcome you back for your next visit!",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdK3dPh44LdrsxFVcoRbbjJhYQOP9aQ6XtVvc4qge-6VkOq6dU4BfPmN0T_PL8MrIJAyuCqMhP1kqTlZpPKgsQ_0KvjbsYlyJzqOaXwapEgxDDM7nwLSDm1k9hgiO89UicVk1Ti-A1w6IdN=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLeZ83hayzkUG0rvAMMPzzgurx6TrTJmMyhAPtyJ4XQibaZuhWL1ZdJYDhIsEdBtPE-_SN66xf2sgPC1BJjsuZBcf7GRgm027XeMjuEvOQekAnIF3h6SYh3-xD49f1V6aswNeVea3gGWbIH6=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-01-cindy-acevedo.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-01-cindy-acevedo-1.jpg",
+        "assets/images/reviews/review-01-cindy-acevedo-2.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ST2JUY3hkRXRqVEZnM2NFdDBlRE5EWVRSSWJVRRAB",
+      "sortBucket": "newest",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Isa Ortiz",
+      "reviewerBadge": "3 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV_5Xxj8B8uXNsHs4OGxJ-0SncwVkPlb3Ck_kZFhVEzsPpzI6E=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/105163320105573834749?hl=en-US",
+      "reviewerContributorId": "105163320105573834749",
+      "reviewerTotalReviews": 3,
+      "reviewerTotalPhotos": null,
+      "rating": 5,
+      "relativeDate": "Edited 2 weeks ago",
+      "timestampMicroseconds": 1790530615327278,
+      "updatedTimestampMicroseconds": 1791498010688577,
+      "text": "very pleasant atmosphere! nicole did an amazing job on my nails",
+      "ownerResponse": "Thank you so much, Isa! 💕 We’re so happy you enjoyed the pleasant atmosphere at our salon. We truly appreciate your kind review and can’t wait to welcome you back again soon! ✨",
+      "ownerResponseRelativeDate": "4 weeks ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-02-isa-ortiz.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tVMGVVVXlUWFZqUm1kQmJIcFphbXR2Tlc1aFpXYxAB",
+      "sortBucket": "newest",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Gloria reyes",
+      "reviewerBadge": "1 review",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLj7ggGvzRMNLZZ5uW5TXStz6re45SmfD8Mnro0JQVXXVig_A=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/118206100415275800017?hl=en-US",
+      "reviewerContributorId": "118206100415275800017",
+      "reviewerTotalReviews": 1,
+      "reviewerTotalPhotos": null,
+      "rating": 5,
+      "relativeDate": "a month ago",
+      "timestampMicroseconds": 1790531260025213,
+      "updatedTimestampMicroseconds": 1790531260025213,
+      "text": "",
+      "ownerResponse": "Thank you so much for the 5-star review! ⭐️ We truly appreciate your support and look forward to seeing you again soon! 💕",
+      "ownerResponseRelativeDate": "4 weeks ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-03-gloria-reyes.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paMlVGTm1Xa0oxTkdGWldVUlNWRVZvWkc5S2MxRRAB",
+      "sortBucket": "newest",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Sara i.",
+      "reviewerBadge": "Local Guide · 14 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWEAXOJyt344rd2gvyknm3kL1AlsdzFo166DSZaSZZN4ehG6fkO=s120-c-rp-mo-ba12-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/106132126148385799840?hl=en-US",
+      "reviewerContributorId": "106132126148385799840",
+      "reviewerTotalReviews": 14,
+      "reviewerTotalPhotos": 4,
+      "rating": 5,
+      "relativeDate": "a month ago",
+      "timestampMicroseconds": 1790341205566645,
+      "updatedTimestampMicroseconds": 1790341205566645,
+      "text": "Nicole is the best and super attentive when it comes to her work !!!",
+      "ownerResponse": "Thank you so much, Sara! 💕 We’re so happy to hear that you had a great experience with Nicole. She truly appreciates your kind words and support. We can’t wait to see you again at All Nails & Spa! ✨",
+      "ownerResponseRelativeDate": "a month ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLd7NgvPWCRTzm7zkmGSRjo-MWOfbETQRSBV3UOkLBRx9I0XnzCoEj8V-mFd6aw5Vq0PU0Q5aPRzlqefXuRNTEwXvt4HLucl458Xz9S2adkJM5zbv--7EWiCCekmcCSl3dtnyi5YDmVSrZGg=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLcVQ2h2SCb7DAbgbu9w2dW7_zKaQnb0NlsV2pknq8sMyf4iCbMrjVqPlrwbmAYgLoxnrp5DGC5WlTsIPO1-NhShxG1o3deaDEZDbM02rGSy81dG4t3V2sTKH8N70A3PRrLbSb-nity4ZFpc=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLe_Z4G4jvK51qAYILhpmBDrcs1DlONqY9gdzXnf1KOHLeIEofp0SJhlTiDaCw88neLJT3t-HUFPZRnB3aICNLssZo89OyoDMHFV10insfh0FpT3PYQCXAs7vDylkyQjKDPS_5aBnVsqoc76=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-04-sara-i.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-04-sara-i-1.jpg",
+        "assets/images/reviews/review-04-sara-i-2.jpg",
+        "assets/images/reviews/review-04-sara-i-3.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsbVZsbEJhamd6VG14MU5EQkdlVzVOVms1TFdHYxAB",
+      "sortBucket": "newest",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Rosa Reyes Malla",
+      "reviewerBadge": "Local Guide · 112 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbYq0OJ-meiRjBFdE2eb98gXxg0HuuBLJMRegANOeCbXmv4wKDOA=s120-c-rp-mo-ba12-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/102822374931677275567?hl=en-US",
+      "reviewerContributorId": "102822374931677275567",
+      "reviewerTotalReviews": 112,
+      "reviewerTotalPhotos": 57,
+      "rating": 5,
+      "relativeDate": "a month ago",
+      "timestampMicroseconds": 1788709632111418,
+      "updatedTimestampMicroseconds": 1788709725058726,
+      "text": "I think this is the first nail salon where I see a great variety of nail polish and they all look brand new. The place is impeccably clean and needless to say the hands of Nicole for that foot massage are #1 highly recommend it. New administration and all new and super clean.",
+      "ownerResponse": "Thank you so much, Rosa! We’re so happy you enjoyed your experience and our selection of nail colors. Nicole will be especially happy to hear that you loved her foot massage! 😊 We truly appreciate your kind words and recommendation. We look forward to seeing you again soon! 💕",
+      "ownerResponseRelativeDate": "a month ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-05-rosa-reyes-malla.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pBeU4yUXhNelJyY1ZCU2QxQnJhVGRPTmpWc09VRRAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "duda -",
+      "reviewerBadge": "2 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWiDxf-2LMzBctmrMZNxs8avwEUdsmA45UwvzLUaBAfRQPbNQvC=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/103719035680244570463?hl=en-US",
+      "reviewerContributorId": "103719035680244570463",
+      "reviewerTotalReviews": 2,
+      "reviewerTotalPhotos": 1,
+      "rating": 5,
+      "relativeDate": "2 months ago",
+      "timestampMicroseconds": 1787174158693471,
+      "updatedTimestampMicroseconds": 1787174158693471,
+      "text": "Genuinely 10/10 place, amazing people and well mannered. The pedicure felt amazing and looks amazing, LOVEEEE my finger nails down. 100% recommend this place. the only thing I did not enjoy was seeing a worker getting mistreated from a customer. Big thank you to Kris & Nicole for helping me and my mom :)",
+      "ownerResponse": "Thank you so much for such a sweet review! 💕 We’re so happy you and your mom had a wonderful experience with us. Kris and Nicole truly appreciate your kind words, and we can’t wait to welcome you both back again soon! 😊",
+      "ownerResponseRelativeDate": "2 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdKjMllj4-4rf1N5_F_y_NIevvfAbBf-F-AktqNekP9C0brys6pLbd3YE6IWb-q9QpOyQD2bgAoZAy3RgXENJcoXVC9Gkynrh70zuQW-Ylduo0j5ZvRYPhvmfROuFXQ0zTEONlcsjPpKcA=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-06-duda.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-06-duda-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psclUwSmZaMVJIUjJOa1FVRlRZbWxuYmpac2RWRRAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Amanda Serafin",
+      "reviewerBadge": "2 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocL35t1FYdhfow_wdIkvJwXaxDQXY23E9-bCaSkKYZabQIGFZg=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/110359749169480163783?hl=en-US",
+      "reviewerContributorId": "110359749169480163783",
+      "reviewerTotalReviews": 2,
+      "reviewerTotalPhotos": 1,
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1784301982656133,
+      "updatedTimestampMicroseconds": 1784301982656133,
+      "text": "I had my nails done by Nicole, and she exceeded every expectation. She brought my vision to life with incredible precision! My nails are perfectly shaped, beautifully symmetrical, and impeccably clean. Her attention to detail and talent truly set her apart. On top of that, the entire staff was warm, welcoming, and genuinely friendly, making the experience even better. I highly recommend Nicole and the entire salon to anyone looking for exceptional service and flawless results.",
+      "ownerResponse": "Thank you so much, Amanda! ❤️ We’re truly grateful for your kind words. It means so much to hear that you loved your nails and noticed the attention to detail. Nicole and our entire team appreciate your support, and we can’t wait to welcome you back for your next visit!",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdaXlGFncHVtBsAHEhCGO_aUAGsHEdTL6CoOjGchVFdOD2_i3sw4PTVmVb2G-JC8Uo-7N4FCA-sHNtZeOk4g5_2ItT4Psedza4wvnE5H-iCfQOD9QIgkyB9cQJ6KX3fecaPqAgspCCkJuOQ=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-07-amanda-serafin.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-07-amanda-serafin-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tseU4wdDZUazlrU1ROdVVFTnpRV2REUjI5cmFHYxAB",
+      "sortBucket": "lowest_rating",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Megan Faust",
+      "reviewerBadge": "7 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJmC9LIMK-XPMHF6YKFdPOTDr2pSPMdMOzJO67T41WNJWNsE_0=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/117481856614645800105?hl=en-US",
+      "reviewerContributorId": "117481856614645800105",
+      "reviewerTotalReviews": 7,
+      "reviewerTotalPhotos": 1,
+      "rating": 1,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1783883630980684,
+      "updatedTimestampMicroseconds": 1783903874335089,
+      "text": "I went to try out the new ownership after seeing this promotion they were offering that expires on 7/28. They refused to honor it, even after showing my picture. I would have went to one of my normal places had I known. Not up to par with nail locations such as Venice, Neo Nails, etc. Save your time and money.\n\nEDIT - In response to their response, the promotion from my screenshot shot says 6/28-7/28. Today is July 12th, which is clearly within the advertised promotional window. I find it disheartening that local businesses are falsely advertising which leads to distrust. Seeing as the new ownership is already engaging in dishonest practices I would not recommend to anyone, and the fact that they’d rather double down on their poor customer service tells me everything I need to know.",
+      "ownerResponse": null,
+      "ownerResponseRelativeDate": null,
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLcPZtbWa171_tu7nlvmfpEkjmTXVha4ZLwKRFBJc9xsQB4utnEEq7QsLO1tBU41JQCompc-wP-XidCTcZ2EGNWg0jlGEZR5u1Z49oUJ-WD6Inv-iW-FkUVgWE_fOpbcuJIjtskCTvK0lj4S=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-08-megan-faust.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-08-megan-faust-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psck9VMXdVbmx2UzIxRVkzSm1SRmh0VEV0c2QyYxAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "B",
+      "reviewerBadge": "5 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWLqy92bgMhmOxeocYlUQYLvYxpJD_IBfQ8G50Zi_Aj4lLflpYJ=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/108668089714741291134?hl=en-US",
+      "reviewerContributorId": "108668089714741291134",
+      "reviewerTotalReviews": 5,
+      "reviewerTotalPhotos": 1,
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1783611696034363,
+      "updatedTimestampMicroseconds": 1783611696034363,
+      "text": "Absolutely love my nails ! I had such a great experience getting my nails done here ! Brandon was patient & really took the time to make sure everything was exactly how I wanted it. The nail techs here are truly talented. Definitely my new go to spot ! :)",
+      "ownerResponse": "Thank you so much for your wonderful review! 🤍 We’re so happy you had a great experience with Brandon. It means a lot to know you love your nails and felt well taken care of. We truly appreciate your support and can’t wait to welcome you back again soon! 💅✨",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLfbLkcdf3MONehbFMF-GGN00WlMFh3ddyVfxxIfkEaYmdxj5uqdw2sPZx9WuWEa0mplgBWnzZ3bY2wfpPKp3Tc9yywe5Bsl8IBBXjspEIHWlVZz8LaBdmuV9kNw0RT0mpL2YO6YCVOteXho=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-09-b.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-09-b-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ONlEyWjFiazFhYlVRdFVqYzVPR2RCVTFnNVUzYxAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Mariana Alfaro",
+      "reviewerBadge": "Local Guide · 14 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXAQWtlMSiYRR-SkgqBFp-tJgtaz5p1NL1HW6yirFr1j8m0Tx81=s120-c-rp-mo-ba12-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/111433790264817542395?hl=en-US",
+      "reviewerContributorId": "111433790264817542395",
+      "reviewerTotalReviews": 14,
+      "reviewerTotalPhotos": 4,
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1783099972664347,
+      "updatedTimestampMicroseconds": 1783099972664347,
+      "text": "Love this place. Nicole did my pedi and it was perfect. Keila did my 6 year old nails for the 1st time and she was amazing!! Definitely recommend",
+      "ownerResponse": "Hi Mariana,\nThank you so much for your wonderful review! 💕 We’re so happy you loved your pedicure with Nicole, and it means so much to hear your little one had such a great first nail experience with Keila! Thank you for trusting us with both of you. We truly appreciate your recommendation and can’t wait to welcome your family back soon! ✨💅",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdElPSWs3Jk23TLnizCI4GSTLp8_CZzYkWCJRKZDdsOIB3JzqwBFPWVyKllxSIOvYl-pUmIf_hIqmzRZsCqbZdOVNlRtNI-r4k3C5Wxya0J5JEbHZhstWfF3dPrJfFJaylip487vr97KwNj=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-10-mariana-alfaro.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-10-mariana-alfaro-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNWak1QeGFREAE",
+      "sortBucket": "most_relevant",
+      "languageFetched": "es",
+      "originalLanguage": "es",
+      "reviewerName": "Ana Montenegro",
+      "reviewerBadge": "7 opiniones",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVcj3lqJy1lnDF1-sd-zbRBKs3dT5qoiCxo6FFJ1Ugw-HUitqR4vg=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/100208232576066169254?hl=es-419",
+      "reviewerContributorId": "100208232576066169254",
+      "reviewerTotalReviews": 7,
+      "reviewerTotalPhotos": 2,
+      "rating": 5,
+      "relativeDate": "Editado Hace 3 meses",
+      "timestampMicroseconds": 1701812876261963,
+      "updatedTimestampMicroseconds": 1783098619148471,
+      "text": "La atención y la calidad del trabajo es excelente brandon",
+      "ownerResponse": "Hi Ana,\nThank you so much for your kind words and your 5-star review! 💖 We’re thrilled to hear you were happy with Brandon’s work and your overall experience. Your support means the world to us, and we look forward to seeing you again soon for your next visit! ✨",
+      "ownerResponseRelativeDate": "Hace 3 meses",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLeiPwqcdLmhqg3uep7zRc4Pl3-r6zCfXy8BBXVSALub0UUFUJiR9UwNB2G7FW1lrcpL9DnMnWFlx8Z0KdPCh25ejKvWSXeid50AI0lvqM4Q97Go-hsOmVtk9ok6fLr5QFhOdyepngXzhwnP=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-11-ana-montenegro.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-11-ana-montenegro-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s0elpVOXpkbEpuUVdoV1pteEtSV3h2ZFdSQlVrRRAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Gaviota Rivera",
+      "reviewerBadge": "3 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXgawEBoIqnR3niD6oYviRkHnZcND_hgPcb3Ctp2uOhOuv-g26WsQ=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/109215006806044607201?hl=en-US",
+      "reviewerContributorId": "109215006806044607201",
+      "reviewerTotalReviews": 3,
+      "reviewerTotalPhotos": 1,
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1783097253730218,
+      "updatedTimestampMicroseconds": 1783097253730218,
+      "text": "Ive had the opportunity to come here two times recently as anew client and im so happy i found a new quality nail tech! Nicole is amazing 👏🏽.",
+      "ownerResponse": "Hi Gaviota,\nThank you so much for your amazing 5-star review! 💕 It truly means a lot that you chose us and found your new nail home. I’m so happy you loved your experience, and it was a pleasure doing your nails. Thank you for your trust and support—we can’t wait to see you again soon! ✨💅",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLfzKoOndDwx3I6rYVYWlKCn1AP5Rbaf_zXjbSn7X4DtqI7mi2Vn4plQJEXLDdBuKt_XrOeeDkvcD1QOHPxeuPebT8IXUlccxKC_CcXjQjMLq76EqUuVKpxVKV3EYJG--eZAy9HB4kXwMWAc=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-12-gaviota-rivera.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-12-gaviota-rivera-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURKeXRyRW93RRAB",
+      "sortBucket": "lowest_rating",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Stefanie Tejeda",
+      "reviewerBadge": "6 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIOfvsmcTAD-UPtco0iJqU4nIIPzDjCSYG4ywDhDs3DOCgEtA=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/106107373843987437985?hl=en-US",
+      "reviewerContributorId": "106107373843987437985",
+      "reviewerTotalReviews": 6,
+      "reviewerTotalPhotos": 4,
+      "rating": 1,
+      "relativeDate": "Edited 3 months ago",
+      "timestampMicroseconds": 1689352997484122,
+      "updatedTimestampMicroseconds": 1783032018802351,
+      "text": "At first when I went here, I gave it five stars because it was such an amazing place and amazing vibes. Unfortunately after the new ownership, things just went downhill. It’s unfortunate because it’s near. I hope that this teaches them a lesson to always put customers first and treat customers with respect and dignity. Changing prices and adding card fees without warning was also a bit much. They had a sign stating the change effective immediately. I know things are getting expensive. So I do understand that. But they should’ve posted a sign effective on a certain date. Instead posted a sign saying they will automatically charge and change the pricing without warning for new and previous customers there for years. Without giving us warning to adapt to the new policies, pricing and ownership before booking our new appointments.",
+      "ownerResponse": "Hi Stefanie,\n\nThank you for taking the time to share your feedback. We’re sorry to hear that your experience did not meet your expectations.\n\nSince the salon changed ownership, our pricing and payment policies have been updated. We do have a posted notice regarding our 3% card processing fee, and we apologize if it was missed during your visit. We truly appreciate your feedback and will continue improving how we communicate our policies.\n\nOur team is committed to treating every guest with respect and providing the best possible experience. We wish you all the best.",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-13-stefanie-tejeda.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sZlYxOVNXbDgzVERsSlNHSXhiVFpHZDFsaFltYxAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Kathleen Osne",
+      "reviewerBadge": "3 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUkEurB5Ubncs1OfTV0ZyTUEy2XyLXS3NSTe0PLL3fgmeeqtew=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/114566775548968507833?hl=en-US",
+      "reviewerContributorId": "114566775548968507833",
+      "reviewerTotalReviews": 3,
+      "reviewerTotalPhotos": null,
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "timestampMicroseconds": 1783015111838088,
+      "updatedTimestampMicroseconds": 1783015111838088,
+      "text": "I had such a great experience with Chris! He was professional, detail-oriented, and took his time to make sure my nails came out exactly how I wanted. The shape is perfect, the application is flawless, and you can tell he genuinely cares about the quality of his work. The atmosphere was welcoming, and I never felt rushed. I’ve gotten so many compliments on my nails already! If you’re looking for a talented nail tech who pays attention to every detail, I highly recommend booking with Chris. I’ll definitely be back!",
+      "ownerResponse": "Hi Kathleen,\n\nThank you so much for your wonderful review! We’re thrilled to hear that you had such a great experience with Chris. He truly takes pride in his work, and we’re so happy his attention to detail and professionalism made such a positive impression. Thank you for your kind words and recommendation. We can’t wait to welcome you back to All Nails & Spa Lake Nona soon! 💛",
+      "ownerResponseRelativeDate": "3 months ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-14-kathleen-osne.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKbVUyRktaekJOWVZCWFRuWjBOa1J6VkY5S1FrRRAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Taylor Ellis",
+      "reviewerBadge": "6 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXY4prVWh8Mld7Ayxbmz8zu5j91uvujWHVk5Gyb7cTdn9hp90uj=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/105638889255624724449?hl=en-US",
+      "reviewerContributorId": "105638889255624724449",
+      "reviewerTotalReviews": 6,
+      "reviewerTotalPhotos": 2,
+      "rating": 5,
+      "relativeDate": "4 months ago",
+      "timestampMicroseconds": 1781654626818005,
+      "updatedTimestampMicroseconds": 1781654626818005,
+      "text": "This was my first time going to Nicole and she was so kind! I came from another tech and didn’t have to do a soak off. I appreciate the traditional approach of doing nails that they offer here. Also, the salon is very clean. I have gone to several private nail techs and can say Nicole is the best thus far! They are reasonably priced and ensure you have a good experience.",
+      "ownerResponse": "Thank you so much for your support and kind words! We truly appreciate your feedback. 💕",
+      "ownerResponseRelativeDate": "4 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdhzjzcJIedAfEpXwoli23fEJfaCbPYPuVuuGMsNMl_HZKu3l8LL3jw5uvml-ppERvSisrAZQ5Xwagq2x7yHQDwgg1SS7vgdHCTco8RpJXoWamm91mSgQQoX4UlL9rVl5q075bgCu5p01c=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdIxymHpPrwo4_6z7r_H7iaOlHaT17EcYI4ONzjZpfBJxbGxS1KXZiZgqYV6Tn9v6E1BvdFBllMQcHEXLVJASs6fRUyn29qkxDzFxoviRKBADybx4_MotU5EbIhr3D5m3votkt75ByZIJ2O=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-15-taylor-ellis.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-15-taylor-ellis-1.jpg",
+        "assets/images/reviews/review-15-taylor-ellis-2.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oc1lUaFFRbVpYU1RocWNWQnFhM0ZZVUc1a2VGRRAB",
+      "sortBucket": "most_relevant_signed_in",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Juliana Palmieri",
+      "reviewerBadge": "4 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLG2ebkCfA9v7pPg7mOTppRO6pHIvzI9FoJ6iurdnaqdcdVwA=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/112458393771603304334?hl=en-US",
+      "reviewerContributorId": "112458393771603304334",
+      "reviewerTotalReviews": 4,
+      "reviewerTotalPhotos": 1,
+      "rating": 5,
+      "relativeDate": "4 months ago",
+      "timestampMicroseconds": 1781296428253284,
+      "updatedTimestampMicroseconds": 1781296428253284,
+      "text": "Tried this place for the first time today and got my nails done with Nicole. Not only was she super sweet but she is so talented and my nails came out exactly like the inspo pic I showed her. Very attentive to the little details! My nails are World Cup ready 🇧🇷⚽️ very pleased with the service and outcome.",
+      "ownerResponse": "Thank you so much for your support and kind words! We truly appreciate your feedback.\n\nWe are excited to share that All Nails & Spa is now under new ownership and management. Our new team is committed to providing excellent service and creating the best experience for every guest.\n\nWe look forward to welcoming you again soon!\n\n— The New Ownership & Management Team\nAll Nails & Spa",
+      "ownerResponseRelativeDate": "4 months ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLe5Q8XEkSEJnKUq_5ZC4_YUHz509C2NSg2QP5zyGjZzIj1VhJyxsmgr-dqGunm3rFO0c9O7lIUuykEHmUctHxrJf7vemhQ-kjcnTq5wYLHsfc52B1ei26Fdn-egVSgZFGJvjjgd-kd0Ot8=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-16-juliana-palmieri.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-16-juliana-palmieri-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paNmRsSTFlWEZwUmtwbVZYQlZRWGx4YTAxS2JsRRAB",
+      "sortBucket": "lowest_rating",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Abigail Badu",
+      "reviewerBadge": "2 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocIXv_sYfSv16MCoa81IrzRHwqBP9-WywxolnlmQeQ7ACdfahw=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/106622765750988402252?hl=en-US",
+      "reviewerContributorId": "106622765750988402252",
+      "reviewerTotalReviews": 2,
+      "reviewerTotalPhotos": null,
+      "rating": 1,
+      "relativeDate": "5 months ago",
+      "timestampMicroseconds": 1778343743439014,
+      "updatedTimestampMicroseconds": 1778359650620392,
+      "text": "The worst experience I’ve ever had at a nail shop. I showed a picture of what I wanted from there social media pages and still they could not deliver on what I requested.  I was there for 3 hrs and literally got nothing I asked of. Not to mention they kept switching people on my nails. A nail experience should be relaxing this was the most horrific and nerve wrecking experience. I will never return here. As it appears there is fault advertisement on their social media pages. All I requested was French and nobody I mean nobody could deliver on that simple task. Lastly I wanted a certain color acrylic powder which appeared on the social media page and they stated they didn’t have it. Which makes no sense to me. So they attempted to mimic the color via gel polish and then charged me for it. Them not having the correct color has nothing to do with me and to charge a customer for their mishaps is insanity. I’m so disappointed. It’s best to say you cannot do something rather than take a customer and under deliver. Makes the salon looks bad all around. If I could rate a zero I would.",
+      "ownerResponse": "Hi Abigail, we’re truly sorry to hear about your experience and completely understand your frustration. We want to clarify that the nail designs and photos posted on our social media pages are absolutely real and were created by the artists from our new management team.\n\nAt this time, the salon is currently in a transition period, and the new management has not fully taken over operations yet until the beginning of June. We sincerely apologize that the previous staff working during your visit were unable to deliver the results you requested. We understand how disappointing that must have been, especially after showing inspiration photos from our page.\n\nBeginning in June, our salon will be going through many positive changes and improvements under the new management team. We are committed to providing the level of quality, service, and nail artistry shown on our social media, and we stand behind the authenticity of the work posted there.\n\nThank you for your feedback and for bringing this to our attention. We truly apologize again for your experience and hope to provide a much better experience moving forward.",
+      "ownerResponseRelativeDate": "5 months ago",
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-17-abigail-badu.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNMbU1YS0FnEAE",
+      "sortBucket": "lowest_rating",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Kimberly Devlin",
+      "reviewerBadge": "1 review",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocKc5UAr2h7MG84OBIrL-gAblx2CHirYuWAgFPOhwToKc29rYw=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/104848686593072889282?hl=en-US",
+      "reviewerContributorId": "104848686593072889282",
+      "reviewerTotalReviews": 1,
+      "reviewerTotalPhotos": 1,
+      "rating": 1,
+      "relativeDate": "2 years ago",
+      "timestampMicroseconds": 1718389689375520,
+      "updatedTimestampMicroseconds": 1718389689375520,
+      "text": "AVOID.  Had a 2:00 appt and drove two hours to arrive on time.   It is now 2:25, five people who came in after me are getting sevices and I am still waiting.   Would have already left if they hadn't started my friend's appt.   Making an appt elsewhere.",
+      "ownerResponse": "We are so sorry you had to wait. If you would be willing to try again we can offer you a 15% discount. Ask for Kelly or Lina, they are the owners. ",
+      "ownerResponseRelativeDate": "2 years ago",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdHR76CItk-2SEWKLzHJo3R8zwOIDBPF3GbiQRkEcPR_GyHwTnYzLCHlx-sLbO0X-PuYpe5YfgNbp1bF91S8ALxsFDPgYjfpKod6oql9sT8Ugk1HdS0-uVdvREegDo6t_g2j8mj6w=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-18-kimberly-devlin.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-18-kimberly-devlin-1.jpg"
+      ]
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNaekpIbGFREAE",
+      "sortBucket": "most_relevant",
+      "languageFetched": "es",
+      "originalLanguage": "es",
+      "reviewerName": "Bettyema Rached",
+      "reviewerBadge": "Local Guide · 143 opiniones",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUIhXrSk_G8tnEeRyN0hYFJSPSPxUUayYrUISYEWYT0LC2m9oU=s120-c-rp-mo-ba12-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/107720711007494002498?hl=es-419",
+      "reviewerContributorId": "107720711007494002498",
+      "reviewerTotalReviews": 143,
+      "reviewerTotalPhotos": 105,
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "timestampMicroseconds": 1693931460128912,
+      "updatedTimestampMicroseconds": 1693931460128912,
+      "text": "Este nuevo local para hacer mani y pedicure, es de lo más placentero. Venir a hacerme las uñas significa un momento de relax y paz. La atención es excelente. La calidad del trabajo difícil de encontrar en otro lugar, se destaca por su delicadeza y perfección. Además que puedes innovar cada vez que vienes porque tienen estilos diferentes y creativos. Lina y Kelly son especialistas en el arte de las uñas!\nEl ambiente es hermoso y acogedor. El trato es cálido , respetuoso y de amigable armonía.\nEs una experiencia única! Agradecida por tanta atención!",
+      "ownerResponse": null,
+      "ownerResponseRelativeDate": null,
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-19-bettyema-rached.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNaektHdVpnEAE",
+      "sortBucket": "most_relevant",
+      "languageFetched": "es",
+      "originalLanguage": "es",
+      "reviewerName": "Judith Rached",
+      "reviewerBadge": "4 opiniones",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocK4q7fBXovo3VcdqtA56QTWp2DSrldcFZrOOkvELL3L4pZupg=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/106632369386912893941?hl=es-419",
+      "reviewerContributorId": "106632369386912893941",
+      "reviewerTotalReviews": 4,
+      "reviewerTotalPhotos": 2,
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "timestampMicroseconds": 1693931280623356,
+      "updatedTimestampMicroseconds": 1693931280623356,
+      "text": "Me encanta el ambiente, la decoración, la atención y el personal. El local es iluminado y limpio, todo está en orden siempre..Amo el trabajo que hacen! Particularmente me atiendo con Lina y Kelly, conocen mis gustos, me atienden excelente…SON LO MÁXIMO!",
+      "ownerResponse": "Muchas gracias por la gran reseña. nos vemos pronto.",
+      "ownerResponseRelativeDate": "Hace 3 años",
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLdMexLzjRJZuB-GEh8to161yfRAiI3rZUrDwzcbqHg2Fp_HFj200KczeCdDgpXGH1zP9V5z8u0A9laDC3BBu7u-7jTfjSDtbgyVWfXld9MeDtWCnRv85mfDVaEuj3qwworOsUykRQ=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLcmtdSdCLAnhmQTug5UgM1lTLsNb1lj-xcNtP3elaUxOkSaooopI2MhT2O2S6-YAF5GzYSjPVQdToXnUPBv4ncKZZgOg-MU13xnJ64Fn9uodYLwCIZf06vBsJ--llcQ9Ybrz9gd=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-20-judith-rached.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-20-judith-rached-1.jpg",
+        "assets/images/reviews/review-20-judith-rached-2.jpg"
+      ]
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNSNy1LMENnEAE",
+      "sortBucket": "most_relevant",
+      "languageFetched": "es",
+      "originalLanguage": "es",
+      "reviewerName": "Yoandra Villegas",
+      "reviewerBadge": "6 opiniones",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a-/ALV-UjU8ZKFMBk3b4eCDj47N-6jK8Nk4o37o8ppKx8qM9Do61gvAB6Y=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/114750355259373538562?hl=es-419",
+      "reviewerContributorId": "114750355259373538562",
+      "reviewerTotalReviews": 6,
+      "reviewerTotalPhotos": null,
+      "rating": 5,
+      "relativeDate": "Editado Hace 3 años",
+      "timestampMicroseconds": 1681418840761152,
+      "updatedTimestampMicroseconds": 1689900327885872,
+      "text": "Recomiendo a Maria muy buen servicio",
+      "ownerResponse": null,
+      "ownerResponseRelativeDate": null,
+      "attributes": {},
+      "photoUrls": [],
+      "localAvatarPath": "assets/images/reviews/avatar-21-yoandra-villegas.jpg",
+      "localPhotos": []
+    },
+    {
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR4bjVfZjVRRRAB",
+      "sortBucket": "most_relevant",
+      "languageFetched": "es",
+      "originalLanguage": "es",
+      "reviewerName": "Francia Diaz",
+      "reviewerBadge": "6 opiniones",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ9WMKZd7444tixkfGi474SEpq8F3lj4CnAuu3PjlyzusV-JQ=s120-c-rp-mo-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/114667802237805778351?hl=es-419",
+      "reviewerContributorId": "114667802237805778351",
+      "reviewerTotalReviews": 6,
+      "reviewerTotalPhotos": 4,
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "timestampMicroseconds": 1687034409669618,
+      "updatedTimestampMicroseconds": 1687034409669618,
+      "text": "Excelente servicio! Lina y Kelly son muy atentas y hacen un trabajo impecable, siempre salgo feliz 😀",
+      "ownerResponse": null,
+      "ownerResponseRelativeDate": null,
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLeNRaKoIRacApPI6n4KFUT2HM9M8oqynKJpAwluoeDaojtDH5PYMn-2oS5SADzbKqJanzHVuU3HgPChQ2rpZ0oBCrWTBB2ZEDfrhA0BsqGtnLKlEBvsSJyeEYs443lH4MRt8q07=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLc6NR8TWfnLoH82lC_Z1uzffcO1x5k8g4OEEpWXbsNrqB2l0CxjOUIKFkemxCwNtpAWCM6Oy36qbklj5Jy0sZnH-EqtdxO09Y8CJW83qCws-NcbwYrPs6jgiKIFoXvUrOXdUYL-=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-22-francia-diaz.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-22-francia-diaz-1.jpg",
+        "assets/images/reviews/review-22-francia-diaz-2.jpg"
+      ]
+    },
+    {
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURZNnBDbGdnRRAB",
+      "sortBucket": "lowest_rating",
+      "languageFetched": "en",
+      "originalLanguage": "en",
+      "reviewerName": "Triana Roque",
+      "reviewerBadge": "Local Guide · 81 reviews",
+      "reviewerAvatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocK7pLDHUWIa16O_xsPnkvmQf-PwFZUPCqAYiH5ASsob6QBtxw=s120-c-rp-mo-ba12-br100",
+      "reviewerProfileUrl": "https://www.google.com/maps/contrib/109960439481180220425?hl=en-US",
+      "reviewerContributorId": "109960439481180220425",
+      "reviewerTotalReviews": 81,
+      "reviewerTotalPhotos": 32,
+      "rating": 1,
+      "relativeDate": "7 years ago",
+      "timestampMicroseconds": 1557260816793179,
+      "updatedTimestampMicroseconds": 1557261029232011,
+      "text": "I’m so done with this place. 5 days and my gel polish is peeling off. What a waste of my time and money which is very valuable to a stay at home mom. I’ve been here a few times before the pedicures are done good but when it comes to gel manis I always have an issue. I’m officially done giving this place chances and I will take my time and money somewhere else! Look at my pictures, this is a 5 day old gel manicure and it looks gross.",
+      "ownerResponse": null,
+      "ownerResponseRelativeDate": null,
+      "attributes": {},
+      "photoUrls": [
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLeb5zvuPOTqXtudtlYjYXlYqoHMm-UdBuzVhm27wugjmupMWJUqEFC8zEPE0RJVJQ3wnjujIX_XLil-TH0MD_OAWgvTGOAdZe7UA5aGT5HmBZ9ZC8DUVXYwlbcmPYc5SzN9X3Rl=s1200",
+        "https://lh3.googleusercontent.com/grass-cs/AABkmLeaVK9Wi5bYl7lMLEhq3Zh1oY5DILypLulE0e8d-_WBX56SI-fTDLHrrlZsr9xdCXnzT8ua9QUAKGP1FeH4UnKbyaBdVT0BmTRxbo3ck0zNdeEDDy6MOSWAOoQyqHW8S5Y9sJo=s1200"
+      ],
+      "localAvatarPath": "assets/images/reviews/avatar-23-triana-roque.jpg",
+      "localPhotos": [
+        "assets/images/reviews/review-23-triana-roque-1.jpg",
+        "assets/images/reviews/review-23-triana-roque-2.jpg"
+      ]
+    }
+  ]
+}

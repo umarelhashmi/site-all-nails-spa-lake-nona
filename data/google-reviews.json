@@ -1,0 +1,346 @@
+{
+  "placeName": "ALL NAILS & SPA LAKE NONA",
+  "placeId": "ChIJy92_SNJj54gRTiGiGf_BBmo",
+  "cidHex": "0x88e763d248bfddcb:0x6a06c1ff19a2214e",
+  "rating": 4.7,
+  "totalReviews": 480,
+  "starBreakdown": {
+    "5_star": 429,
+    "4_star": 15,
+    "3_star": 5,
+    "2_star": 9,
+    "1_star": 22
+  },
+  "highlightedQuotes": [
+    {
+      "quote": "\"Place has been remodeled with new owners, very nice and friendly service.\"",
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNva29fSVNREAE",
+      "rating": 5,
+      "contributorUrl": "https://www.google.com/maps/contrib/111003545033358994950?hl=en-US"
+    },
+    {
+      "quote": "\"Atmosphere and people gave out a good vibe.\"",
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNMdUtfeXVnRRAB",
+      "rating": 5,
+      "contributorUrl": "https://www.google.com/maps/contrib/108300523601184151994?hl=en-US"
+    }
+  ],
+  "topics": [
+    {
+      "topicId": "BWEW2TAIzEY",
+      "topic": "inspo nails",
+      "mentionsCount": 2
+    },
+    {
+      "topicId": "AeUsWqKUqZc",
+      "topic": "foot massages",
+      "mentionsCount": 5
+    },
+    {
+      "topicId": "ICIutC-v0m0",
+      "topic": "newly renovated",
+      "mentionsCount": 2
+    },
+    {
+      "topicId": "DukFdBtQwOY",
+      "topic": "kind staff",
+      "mentionsCount": 18
+    },
+    {
+      "topicId": "pILsVSu1kqE",
+      "topic": "new ownership",
+      "mentionsCount": 12
+    },
+    {
+      "topicId": "AUSf-HCpzQY",
+      "topic": "nail designs",
+      "mentionsCount": 17
+    },
+    {
+      "topicId": "JMYmvD8HgrQ",
+      "topic": "new management",
+      "mentionsCount": 7
+    },
+    {
+      "topicId": "JmI0lbu_ko4",
+      "topic": "modern salon",
+      "mentionsCount": 2
+    },
+    {
+      "topicId": "FO2nth9IwHQ",
+      "topic": "attention to detail",
+      "mentionsCount": 22
+    },
+    {
+      "topicId": "bfVcrKFIy2s",
+      "topic": "passion for work",
+      "mentionsCount": 2
+    }
+  ],
+  "reviews": [
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25Wb1JtdDJaWFpuTUhORExVWmZibWd6V2taRmJIYxAB",
+      "reviewerName": "Cindy Acevedo",
+      "badge": "2 reviews",
+      "avatar": "assets/images/reviews/avatar-01-cindy-acevedo.webp",
+      "rating": 5,
+      "relativeDate": "Edited 5 days ago",
+      "text": "Amazing experience!!!! 🤩",
+      "photos": [
+        "assets/images/reviews/review-01-cindy-acevedo-1.webp",
+        "assets/images/reviews/review-01-cindy-acevedo-2.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-01-cindy-acevedo-1.jpg",
+        "assets/images/reviews/review-01-cindy-acevedo-2.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/114404629653713210223?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ST2JUY3hkRXRqVEZnM2NFdDBlRE5EWVRSSWJVRRAB",
+      "reviewerName": "Isa Ortiz",
+      "badge": "3 reviews",
+      "avatar": "assets/images/reviews/avatar-02-isa-ortiz.webp",
+      "rating": 5,
+      "relativeDate": "Edited 2 weeks ago",
+      "text": "very pleasant atmosphere! nicole did an amazing job on my nails",
+      "photos": [],
+      "photosOriginal": [],
+      "profileUrl": "https://www.google.com/maps/contrib/105163320105573834749?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2paMlVGTm1Xa0oxTkdGWldVUlNWRVZvWkc5S2MxRRAB",
+      "reviewerName": "Sara i.",
+      "badge": "Local Guide · 14 reviews",
+      "avatar": "assets/images/reviews/avatar-04-sara-i.webp",
+      "rating": 5,
+      "relativeDate": "a month ago",
+      "text": "Nicole is the best and super attentive when it comes to her work !!!",
+      "photos": [
+        "assets/images/reviews/review-04-sara-i-1.webp",
+        "assets/images/reviews/review-04-sara-i-2.webp",
+        "assets/images/reviews/review-04-sara-i-3.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-04-sara-i-1.jpg",
+        "assets/images/reviews/review-04-sara-i-2.jpg",
+        "assets/images/reviews/review-04-sara-i-3.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/106132126148385799840?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2tsbVZsbEJhamd6VG14MU5EQkdlVzVOVms1TFdHYxAB",
+      "reviewerName": "Rosa Reyes Malla",
+      "badge": "Local Guide · 112 reviews",
+      "avatar": "assets/images/reviews/avatar-05-rosa-reyes-malla.webp",
+      "rating": 5,
+      "relativeDate": "a month ago",
+      "text": "I think this is the first nail salon where I see a great variety of nail polish and they all look brand new. The place is impeccably clean and needless to say the hands of Nicole for that foot massage are #1 highly recommend it. New administration and all new and super clean.",
+      "photos": [],
+      "photosOriginal": [],
+      "profileUrl": "https://www.google.com/maps/contrib/102822374931677275567?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pBeU4yUXhNelJyY1ZCU2QxQnJhVGRPTmpWc09VRRAB",
+      "reviewerName": "duda -",
+      "badge": "2 reviews",
+      "avatar": "assets/images/reviews/avatar-06-duda.webp",
+      "rating": 5,
+      "relativeDate": "2 months ago",
+      "text": "Genuinely 10/10 place, amazing people and well mannered. The pedicure felt amazing and looks amazing, LOVEEEE my finger nails down. 100% recommend this place. the only thing I did not enjoy was seeing a worker getting mistreated from a customer. Big thank you to Kris & Nicole for helping me and my mom :)",
+      "photos": [
+        "assets/images/reviews/review-06-duda-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-06-duda-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/103719035680244570463?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psclUwSmZaMVJIUjJOa1FVRlRZbWxuYmpac2RWRRAB",
+      "reviewerName": "Amanda Serafin",
+      "badge": "2 reviews",
+      "avatar": "assets/images/reviews/avatar-07-amanda-serafin.webp",
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "text": "I had my nails done by Nicole, and she exceeded every expectation. She brought my vision to life with incredible precision! My nails are perfectly shaped, beautifully symmetrical, and impeccably clean. Her attention to detail and talent truly set her apart. On top of that, the entire staff was warm, welcoming, and genuinely friendly, making the experience even better. I highly recommend Nicole and the entire salon to anyone looking for exceptional service and flawless results.",
+      "photos": [
+        "assets/images/reviews/review-07-amanda-serafin-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-07-amanda-serafin-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/110359749169480163783?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2psck9VMXdVbmx2UzIxRVkzSm1SRmh0VEV0c2QyYxAB",
+      "reviewerName": "B",
+      "badge": "5 reviews",
+      "avatar": "assets/images/reviews/avatar-09-b.webp",
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "text": "Absolutely love my nails ! I had such a great experience getting my nails done here ! Brandon was patient & really took the time to make sure everything was exactly how I wanted it. The nail techs here are truly talented. Definitely my new go to spot ! :)",
+      "photos": [
+        "assets/images/reviews/review-09-b-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-09-b-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/108668089714741291134?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21ONlEyWjFiazFhYlVRdFVqYzVPR2RCVTFnNVUzYxAB",
+      "reviewerName": "Mariana Alfaro",
+      "badge": "Local Guide · 14 reviews",
+      "avatar": "assets/images/reviews/avatar-10-mariana-alfaro.webp",
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "text": "Love this place. Nicole did my pedi and it was perfect. Keila did my 6 year old nails for the 1st time and she was amazing!! Definitely recommend",
+      "photos": [
+        "assets/images/reviews/review-10-mariana-alfaro-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-10-mariana-alfaro-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/111433790264817542395?hl=en-US"
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNWak1QeGFREAE",
+      "reviewerName": "Ana Montenegro",
+      "badge": "7 opiniones",
+      "avatar": "assets/images/reviews/avatar-11-ana-montenegro.webp",
+      "rating": 5,
+      "relativeDate": "Editado Hace 3 meses",
+      "text": "La atención y la calidad del trabajo es excelente brandon",
+      "photos": [
+        "assets/images/reviews/review-11-ana-montenegro-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-11-ana-montenegro-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/100208232576066169254?hl=es-419"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s0elpVOXpkbEpuUVdoV1pteEtSV3h2ZFdSQlVrRRAB",
+      "reviewerName": "Gaviota Rivera",
+      "badge": "3 reviews",
+      "avatar": "assets/images/reviews/avatar-12-gaviota-rivera.webp",
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "text": "Ive had the opportunity to come here two times recently as anew client and im so happy i found a new quality nail tech! Nicole is amazing 👏🏽.",
+      "photos": [
+        "assets/images/reviews/review-12-gaviota-rivera-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-12-gaviota-rivera-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/109215006806044607201?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT21sZlYxOVNXbDgzVERsSlNHSXhiVFpHZDFsaFltYxAB",
+      "reviewerName": "Kathleen Osne",
+      "badge": "3 reviews",
+      "avatar": "assets/images/reviews/avatar-14-kathleen-osne.webp",
+      "rating": 5,
+      "relativeDate": "3 months ago",
+      "text": "I had such a great experience with Chris! He was professional, detail-oriented, and took his time to make sure my nails came out exactly how I wanted. The shape is perfect, the application is flawless, and you can tell he genuinely cares about the quality of his work. The atmosphere was welcoming, and I never felt rushed. I’ve gotten so many compliments on my nails already! If you’re looking for a talented nail tech who pays attention to every detail, I highly recommend booking with Chris. I’ll definitely be back!",
+      "photos": [],
+      "photosOriginal": [],
+      "profileUrl": "https://www.google.com/maps/contrib/114566775548968507833?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pKbVUyRktaekJOWVZCWFRuWjBOa1J6VkY5S1FrRRAB",
+      "reviewerName": "Taylor Ellis",
+      "badge": "6 reviews",
+      "avatar": "assets/images/reviews/avatar-15-taylor-ellis.webp",
+      "rating": 5,
+      "relativeDate": "4 months ago",
+      "text": "This was my first time going to Nicole and she was so kind! I came from another tech and didn’t have to do a soak off. I appreciate the traditional approach of doing nails that they offer here. Also, the salon is very clean. I have gone to several private nail techs and can say Nicole is the best thus far! They are reasonably priced and ensure you have a good experience.",
+      "photos": [
+        "assets/images/reviews/review-15-taylor-ellis-1.webp",
+        "assets/images/reviews/review-15-taylor-ellis-2.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-15-taylor-ellis-1.jpg",
+        "assets/images/reviews/review-15-taylor-ellis-2.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/105638889255624724449?hl=en-US"
+    },
+    {
+      "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25oc1lUaFFRbVpYU1RocWNWQnFhM0ZZVUc1a2VGRRAB",
+      "reviewerName": "Juliana Palmieri",
+      "badge": "4 reviews",
+      "avatar": "assets/images/reviews/avatar-16-juliana-palmieri.webp",
+      "rating": 5,
+      "relativeDate": "4 months ago",
+      "text": "Tried this place for the first time today and got my nails done with Nicole. Not only was she super sweet but she is so talented and my nails came out exactly like the inspo pic I showed her. Very attentive to the little details! My nails are World Cup ready 🇧🇷⚽️ very pleased with the service and outcome.",
+      "photos": [
+        "assets/images/reviews/review-16-juliana-palmieri-1.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-16-juliana-palmieri-1.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/112458393771603304334?hl=en-US"
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNaekpIbGFREAE",
+      "reviewerName": "Bettyema Rached",
+      "badge": "Local Guide · 143 opiniones",
+      "avatar": "assets/images/reviews/avatar-19-bettyema-rached.webp",
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "text": "Este nuevo local para hacer mani y pedicure, es de lo más placentero. Venir a hacerme las uñas significa un momento de relax y paz. La atención es excelente. La calidad del trabajo difícil de encontrar en otro lugar, se destaca por su delicadeza y perfección. Además que puedes innovar cada vez que vienes porque tienen estilos diferentes y creativos. Lina y Kelly son especialistas en el arte de las uñas!\nEl ambiente es hermoso y acogedor. El trato es cálido , respetuoso y de amigable armonía.\nEs una experiencia única! Agradecida por tanta atención!",
+      "photos": [],
+      "photosOriginal": [],
+      "profileUrl": "https://www.google.com/maps/contrib/107720711007494002498?hl=es-419"
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNaektHdVpnEAE",
+      "reviewerName": "Judith Rached",
+      "badge": "4 opiniones",
+      "avatar": "assets/images/reviews/avatar-20-judith-rached.webp",
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "text": "Me encanta el ambiente, la decoración, la atención y el personal. El local es iluminado y limpio, todo está en orden siempre..Amo el trabajo que hacen! Particularmente me atiendo con Lina y Kelly, conocen mis gustos, me atienden excelente…SON LO MÁXIMO!",
+      "photos": [
+        "assets/images/reviews/review-20-judith-rached-1.webp",
+        "assets/images/reviews/review-20-judith-rached-2.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-20-judith-rached-1.jpg",
+        "assets/images/reviews/review-20-judith-rached-2.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/106632369386912893941?hl=es-419"
+    },
+    {
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNSNy1LMENnEAE",
+      "reviewerName": "Yoandra Villegas",
+      "badge": "6 opiniones",
+      "avatar": "assets/images/reviews/avatar-21-yoandra-villegas.webp",
+      "rating": 5,
+      "relativeDate": "Editado Hace 3 años",
+      "text": "Recomiendo a Maria muy buen servicio",
+      "photos": [],
+      "photosOriginal": [],
+      "profileUrl": "https://www.google.com/maps/contrib/114750355259373538562?hl=es-419"
+    },
+    {
+      "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR4bjVfZjVRRRAB",
+      "reviewerName": "Francia Diaz",
+      "badge": "6 opiniones",
+      "avatar": "assets/images/reviews/avatar-22-francia-diaz.webp",
+      "rating": 5,
+      "relativeDate": "Hace 3 años",
+      "text": "Excelente servicio! Lina y Kelly son muy atentas y hacen un trabajo impecable, siempre salgo feliz 😀",
+      "photos": [
+        "assets/images/reviews/review-22-francia-diaz-1.webp",
+        "assets/images/reviews/review-22-francia-diaz-2.webp"
+      ],
+      "photosOriginal": [
+        "assets/images/reviews/review-22-francia-diaz-1.jpg",
+        "assets/images/reviews/review-22-francia-diaz-2.jpg"
+      ],
+      "profileUrl": "https://www.google.com/maps/contrib/114667802237805778351?hl=es-419"
+    }
+  ]
+}

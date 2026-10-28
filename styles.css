@@ -1,0 +1,2006 @@
+/* ==========================================================================
+   ALL NAILS & SPA LAKE NONA — BESPOKE NAIL ARCH & GILDED VITRINE SYSTEM
+   Palette grounded in the official AN Espresso/Gold Logo & Lake Nona Flyer:
+   - Espresso Ganache: #26140D / #361D13
+   - Raw Travertine:   #F7F2EA / #EFE6D8
+   - Champagne Gilt:   #D5B07C / #B98E54
+   - Nude Glaze:       #E5D4BE
+   - Bordeaux Lacquer: #5E2328
+   ========================================================================== */
+
+:root {
+  --espresso-deep: #22110B;
+  --espresso-logo: #361D13;
+  --espresso-soft: #4B2B1E;
+  --travertine: #F7F2EA;
+  --travertine-warm: #EFE5D6;
+  --nude-glaze: #E2D0B8;
+  --champagne-gold: #D5B07C;
+  --champagne-bright: #EAD0A8;
+  --champagne-deep: #9E7640;
+  --bordeaux: #5E2328;
+  --blush-bday: #F4E2DF;
+  --slate-google: #DCE5EC;
+  --google-blue: #1D4F73;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--espresso-deep);
+  color: var(--espresso-logo);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+body {
+  background-color: var(--travertine);
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ==========================================================================
+   FIRST VIEW: THE GILDED NAIL-ARCH TRIPTYCH (100dvh)
+   ========================================================================== */
+
+.hero-stage {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  min-height: 620px;
+  max-height: 1120px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(213, 176, 124, 0.22), transparent 60%),
+    linear-gradient(180deg, #2B160E 0%, #1C0D08 100%);
+  padding: 14px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* Top Floating Ribbon inside Hero */
+.hero-top-rail {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 6px 16px;
+  margin-bottom: 10px;
+  border-radius: 999px;
+  background: rgba(34, 17, 11, 0.82);
+  border: 1px solid rgba(213, 176, 124, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--travertine);
+}
+
+.rail-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rail-crest {
+  width: 24px;
+  height: 39px;
+  object-fit: contain;
+}
+
+.rail-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.rail-title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--champagne-bright);
+  letter-spacing: 0.02em;
+}
+
+.rail-sub {
+  font-size: 0.65rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(247, 242, 234, 0.78);
+}
+
+.rail-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.rail-nav a {
+  color: rgba(247, 242, 234, 0.88);
+  transition: color 0.2s ease;
+}
+
+.rail-nav a:hover {
+  color: var(--champagne-bright);
+}
+
+.rail-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.live-hours-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(213, 176, 124, 0.13);
+  border: 1px solid rgba(213, 176, 124, 0.35);
+  font-size: 0.74rem;
+  color: var(--champagne-bright);
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4CD97B;
+  box-shadow: 0 0 8px rgba(76, 217, 123, 0.85);
+}
+
+.rail-call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #E5C490 0%, #C69B61 100%);
+  color: var(--espresso-deep);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 14px rgba(213, 176, 124, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rail-call-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(213, 176, 124, 0.42);
+}
+
+/* Luxurious Outer & Inner Gilded Frame around the 3 Split Images */
+.gilded-triptych-frame {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  padding: 12px;
+  border-radius: 34px;
+  background:
+    linear-gradient(135deg, rgba(234, 208, 168, 0.22) 0%, rgba(54, 29, 19, 0.92) 50%, rgba(213, 176, 124, 0.26) 100%);
+  border: 2px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 4px var(--espresso-deep),
+    inset 0 0 0 5.5px rgba(213, 176, 124, 0.65),
+    0 20px 55px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+}
+
+/* 4-Point Diamond Star Corner Clasps */
+.frame-corner {
+  position: absolute;
+  z-index: 15;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  font-size: 0.85rem;
+  color: var(--champagne-bright);
+  background: var(--espresso-logo);
+  border: 1.5px solid var(--champagne-gold);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+.frame-corner--tl { top: 6px; left: 6px; }
+.frame-corner--tr { top: 6px; right: 6px; }
+.frame-corner--bl { bottom: 6px; left: 6px; }
+.frame-corner--br { bottom: 6px; right: 6px; }
+
+/* Triple-Split Grid */
+.triptych-grid {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 4px;
+}
+
+.triptych-panel {
+  position: relative;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Each Panel's Luxurious Sculpted Nail-Arch Gilded Border */
+.panel-arch-border {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 130px 130px 22px 22px;
+  overflow: hidden;
+  border: 2px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 3px rgba(34, 17, 11, 0.72),
+    inset 0 0 0 4px rgba(234, 208, 168, 0.55),
+    0 10px 28px rgba(0, 0, 0, 0.38);
+  background: var(--espresso-logo);
+}
+
+/* Inner decorative filigree hairline inside each panel */
+.panel-arch-border::after {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border-radius: 123px 123px 16px 16px;
+  border: 1px solid rgba(234, 208, 168, 0.55);
+  pointer-events: none;
+  z-index: 3;
+}
+
+.panel-arch-border picture,
+.panel-arch-border img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.triptych-panel:hover .panel-arch-border img {
+  transform: scale(1.03);
+}
+
+/* Subtle Corner Tag on Panel (Never blocks the nails or spa work) */
+.panel-whisper {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  pointer-events: none;
+}
+
+.panel-tag {
+  display: inline-block;
+  padding: 4px 13px;
+  border-radius: 999px;
+  background: rgba(34, 17, 11, 0.72);
+  border: 1px solid rgba(213, 176, 124, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--champagne-bright);
+  font-family: var(--font-serif);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+/* Floating Official Oval Crest Seal at Bottom Center of Triptych */
+.hero-crest-seal {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 16;
+  pointer-events: auto;
+}
+
+.crest-seal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 38px 14px;
+  border-radius: 999px;
+  background: rgba(54, 29, 19, 0.94);
+  border: 1.5px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 3px var(--espresso-deep),
+    inset 0 0 0 4px rgba(213, 176, 124, 0.45),
+    0 14px 36px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hero-exact-logo {
+  width: 144px;
+  height: auto;
+  object-fit: contain;
+}
+
+.crest-seal-meta {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.71rem;
+  letter-spacing: 0.04em;
+  color: var(--champagne-bright);
+  white-space: nowrap;
+}
+
+.crest-seal-meta a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.seal-star {
+  font-size: 0.65rem;
+  color: var(--champagne-gold);
+}
+
+/* Mobile Slide Indicator Dots (Hidden on Desktop) */
+.mobile-triptych-dots {
+  display: none;
+}
+
+/* ==========================================================================
+   SECTION 1: SCULPTED NAIL-TIP SWATCH RAIL & SILHOUETTE LOOKBOOK
+   ========================================================================== */
+
+.atelier-showcase {
+  position: relative;
+  padding: 52px 28px 44px;
+  background:
+    radial-gradient(ellipse at 15% 15%, rgba(213, 176, 124, 0.18), transparent 55%),
+    var(--travertine);
+  border-bottom: 1px solid rgba(54, 29, 19, 0.12);
+}
+
+.atelier-layout {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 34px;
+  align-items: start;
+}
+
+/* Left Rail: Sculpted Nail-Tip Swatch Fan */
+.swatch-fan-rail {
+  position: sticky;
+  top: 20px;
+  background: var(--espresso-logo);
+  color: var(--travertine);
+  padding: 24px 20px;
+  border-radius: 90px 28px 28px 28px;
+  border: 1.5px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 4px var(--espresso-deep),
+    inset 0 0 0 5px rgba(213, 176, 124, 0.38),
+    0 18px 40px rgba(34, 17, 11, 0.16);
+}
+
+.swatch-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(213, 176, 124, 0.28);
+}
+
+.mini-crest {
+  width: 26px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.section-serif-title {
+  font-family: var(--font-serif);
+  font-size: 2.15rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--champagne-bright);
+  letter-spacing: 0.02em;
+}
+
+.minimal-sub {
+  margin-top: 3px;
+  font-size: 0.78rem;
+  color: rgba(247, 242, 234, 0.78);
+}
+
+.minimal-sub a {
+  color: var(--champagne-gold);
+  font-weight: 600;
+}
+
+/* Sculpted Nail-Tip Swatches for the 7 Exact Services */
+.nail-swatch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nail-swatch {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  padding: 8px 14px 8px 10px;
+  border-radius: 999px 26px 26px 999px;
+  background: rgba(247, 242, 234, 0.05);
+  border: 1px solid rgba(213, 176, 124, 0.25);
+  color: var(--travertine);
+  text-align: left;
+  transition: all 0.22s ease;
+}
+
+.nail-swatch:hover {
+  background: rgba(213, 176, 124, 0.16);
+  border-color: var(--champagne-gold);
+  transform: translateX(4px);
+}
+
+.nail-swatch.is-active {
+  background: linear-gradient(90deg, #E5C490 0%, #C79A5E 100%);
+  color: var(--espresso-deep);
+  border-color: var(--champagne-bright);
+  font-weight: 700;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
+  transform: translateX(6px);
+}
+
+/* Realistic Almond Nail Tip Swatch Icon */
+.swatch-tip {
+  width: 34px;
+  height: 20px;
+  border-radius: 10px 24px 24px 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    inset 0 3px 5px rgba(255, 255, 255, 0.55),
+    0 2px 5px rgba(0, 0, 0, 0.35);
+  flex-shrink: 0;
+}
+
+.swatch-tip--all {
+  background: linear-gradient(135deg, #EAD0A8 0%, #9E7640 50%, #5E2328 100%);
+}
+.swatch-tip--acrylic {
+  background: linear-gradient(135deg, #F6D8D5 0%, #E8A598 65%, #FFF 68%, #FFF 100%);
+}
+.swatch-tip--gel {
+  background: linear-gradient(135deg, #7A1C24 0%, #420B10 100%);
+}
+.swatch-tip--builder {
+  background: linear-gradient(135deg, #F5E1DA 0%, #DEB5A8 100%);
+}
+.swatch-tip--gelx {
+  background: linear-gradient(135deg, #F3DFC8 0%, #D9A78A 50%, #F7EAE2 100%);
+}
+.swatch-tip--pedi {
+  background: linear-gradient(135deg, #E5F0EE 0%, #8CB8B2 100%);
+}
+.swatch-tip--art {
+  background: radial-gradient(circle at 60% 50%, #FFD4E2 0%, #C86D8A 55%, #D5B07C 100%);
+}
+.swatch-tip--wax {
+  background: linear-gradient(135deg, #F2D29B 0%, #C68B3E 100%);
+}
+
+.swatch-name {
+  font-size: 0.94rem;
+  letter-spacing: 0.02em;
+}
+
+/* Luxury Pedicure Collection 10-Tier Sub-Ledger */
+.pedicure-collection-box {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(213, 176, 124, 0.28);
+}
+
+.pedi-box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.pedi-box-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--champagne-bright);
+}
+
+.pedi-card-preview-btn {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(213, 176, 124, 0.18);
+  border: 1px solid rgba(213, 176, 124, 0.45);
+  color: var(--champagne-bright);
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
+.pedi-tier-pills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pedi-tier-pills li {
+  font-size: 0.7rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(247, 242, 234, 0.07);
+  border: 1px solid rgba(213, 176, 124, 0.22);
+  color: rgba(247, 242, 234, 0.9);
+}
+
+.pedi-tier-pills li.is-featured-tier {
+  background: rgba(213, 176, 124, 0.24);
+  border-color: var(--champagne-gold);
+  color: var(--champagne-bright);
+  font-weight: 600;
+}
+
+/* Right Stage: Asymmetric Manicure-Silhouette Lookbook Mosaic */
+.silhouette-lookbook-stage {
+  min-width: 0;
+}
+
+.lookbook-mosaic {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.lookbook-tile {
+  position: relative;
+  height: 295px;
+  overflow: hidden;
+  background: var(--espresso-logo);
+  border: 2px solid var(--champagne-gold);
+  box-shadow: 0 10px 24px rgba(34, 17, 11, 0.12);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lookbook-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(34, 17, 11, 0.22);
+}
+
+/* 4 Distinct Non-Standard Nail & Gemstone Silhouettes */
+.lookbook-tile.shape-almond {
+  border-radius: 135px 135px 22px 22px;
+}
+
+.lookbook-tile.shape-oval {
+  border-radius: 999px;
+}
+
+.lookbook-tile.shape-squoval {
+  border-radius: 44px 14px 44px 14px;
+}
+
+.lookbook-tile.shape-petal {
+  border-radius: 18px 115px 18px 115px;
+}
+
+.lookbook-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.lookbook-tile:hover img {
+  transform: scale(1.06);
+}
+
+.tile-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: rgba(34, 17, 11, 0.8);
+  border: 1px solid rgba(213, 176, 124, 0.6);
+  color: var(--champagne-bright);
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.lookbook-footer-bar {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.lookbook-more-btn {
+  padding: 11px 24px;
+  border-radius: 999px;
+  background: var(--espresso-logo);
+  color: var(--champagne-bright);
+  border: 1.5px solid var(--champagne-gold);
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.lookbook-more-btn:hover {
+  background: var(--espresso-deep);
+  transform: translateY(-1px);
+}
+
+.lookbook-social-pills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: var(--travertine-warm);
+  border: 1px solid rgba(54, 29, 19, 0.2);
+  color: var(--espresso-logo);
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.social-pill:hover {
+  background: #E8DAC5;
+  border-color: var(--champagne-deep);
+}
+
+/* ==========================================================================
+   SECTION 2: SPECIAL PROMOTIONS & WEEKLY PRIVILEGE CAPSULES (FLYER EXACT)
+   ========================================================================== */
+
+.promotions-sanctuary {
+  padding: 50px 28px;
+  background:
+    linear-gradient(180deg, #F4EFE6 0%, #EDE3D3 100%);
+  border-bottom: 1px solid rgba(54, 29, 19, 0.14);
+}
+
+.promo-architectural-wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.promo-crest-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.promo-motto {
+  font-size: 0.78rem;
+  letter-spacing: 0.26em;
+  color: var(--champagne-deep);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.promo-motto span {
+  margin: 0 8px;
+}
+
+.promo-crest-header .section-serif-title {
+  color: var(--espresso-logo);
+  font-size: 2.5rem;
+}
+
+.promo-asymmetric-stage {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Left: Mon / Tue / Wed Capsules matching the flyer's pill geometry */
+.promo-weekday-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.promo-capsule {
+  display: grid;
+  grid-template-columns: 165px 108px 1fr;
+  align-items: center;
+  background: #E5D7C1;
+  border-radius: 999px;
+  padding: 8px;
+  border: 1px solid rgba(158, 118, 64, 0.35);
+  box-shadow: 0 6px 18px rgba(34, 17, 11, 0.06);
+}
+
+.promo-day-pill {
+  height: 100%;
+  min-height: 74px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #D5C1A3;
+  color: var(--espresso-deep);
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.promo-discount-medallion {
+  height: 100%;
+  min-height: 74px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: #BDA37E;
+  color: #FFF;
+  line-height: 1;
+  padding: 8px;
+}
+
+.promo-discount-medallion strong {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.promo-discount-medallion span {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.promo-audience-box {
+  padding: 6px 20px;
+}
+
+.promo-audience-box h3 {
+  font-family: var(--font-serif);
+  font-size: 1.28rem;
+  font-weight: 700;
+  color: var(--espresso-deep);
+  letter-spacing: 0.03em;
+}
+
+.promo-audience-box p {
+  margin-top: 3px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--espresso-soft);
+}
+
+/* Right: Birthday Blush & Google Review Slate Capsules */
+.promo-occasion-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.occasion-seal {
+  display: grid;
+  grid-template-columns: 185px 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px 12px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(54, 29, 19, 0.12);
+}
+
+.occasion-seal--birthday {
+  background: var(--blush-bday);
+}
+
+.occasion-seal--google {
+  background: var(--slate-google);
+}
+
+.occasion-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.occasion-icon {
+  font-size: 1.5rem;
+}
+
+.occasion-icon--g {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--google-blue);
+  color: #FFF;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.occasion-badge strong {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--espresso-deep);
+  line-height: 1;
+}
+
+.occasion-badge span {
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--espresso-soft);
+}
+
+.occasion-rules p {
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: var(--espresso-logo);
+}
+
+.occasion-rules .rule-bold {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+/* Compact Flyer Preview Strip */
+.original-flyers-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.flyer-thumb-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px 7px 7px;
+  border-radius: 999px;
+  background: rgba(54, 29, 19, 0.07);
+  border: 1px solid rgba(54, 29, 19, 0.18);
+  text-align: left;
+  transition: background 0.2s ease;
+}
+
+.flyer-thumb-btn:hover {
+  background: rgba(213, 176, 124, 0.25);
+}
+
+.flyer-thumb-btn img {
+  width: 42px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid var(--champagne-deep);
+  flex-shrink: 0;
+}
+
+.flyer-thumb-btn span {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--espresso-logo);
+  line-height: 1.25;
+}
+
+/* Verbatim Disclaimer Box at Bottom of Promotions */
+.promo-disclaimer-ledger {
+  margin-top: 20px;
+  padding: 16px 26px;
+  border-radius: 22px;
+  background: rgba(255, 252, 247, 0.78);
+  border: 1.5px solid #B59C73;
+}
+
+.promo-disclaimer-ledger ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px 28px;
+}
+
+.promo-disclaimer-ledger li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 0.77rem;
+  color: var(--espresso-logo);
+  line-height: 1.4;
+}
+
+.promo-disclaimer-ledger li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--champagne-deep);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   SECTION 3: LIVE GOOGLE MAPS REVIEWS & CLIENT NAIL POLAROIDS
+   ========================================================================== */
+
+.reviews-gallery-section {
+  padding: 54px 28px;
+  background: var(--espresso-deep);
+  color: var(--travertine);
+  border-bottom: 1px solid rgba(213, 176, 124, 0.22);
+}
+
+.reviews-asymmetric-shell {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.reviews-score-pillar {
+  position: sticky;
+  top: 20px;
+}
+
+.score-medallion-card {
+  padding: 28px 22px;
+  border-radius: 120px 120px 28px 28px;
+  background: var(--espresso-logo);
+  border: 2px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 4px var(--espresso-deep),
+    inset 0 0 0 5px rgba(213, 176, 124, 0.4),
+    0 20px 44px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.google-live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(76, 217, 123, 0.12);
+  border: 1px solid rgba(76, 217, 123, 0.4);
+  color: #8FF0AE;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.pulse-ring {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4CD97B;
+  box-shadow: 0 0 8px #4CD97B;
+}
+
+.score-big-row {
+  margin: 14px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.score-big-row > strong {
+  font-family: var(--font-serif);
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: var(--champagne-bright);
+  line-height: 1;
+}
+
+.score-stars-wrap {
+  text-align: left;
+}
+
+.gold-stars {
+  color: #F5B942;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+}
+
+.score-stars-wrap span {
+  font-size: 0.78rem;
+  color: rgba(247, 242, 234, 0.82);
+}
+
+.reviews-pillar-title {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--travertine);
+  margin-bottom: 14px;
+}
+
+/* Client Review Photo Peephole Strip */
+.review-photos-mini-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.mini-rev-photo {
+  height: 68px;
+  border-radius: 36px 36px 10px 10px;
+  overflow: hidden;
+  border: 1.5px solid var(--champagne-gold);
+  cursor: pointer;
+}
+
+.mini-rev-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reviews-cta-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.google-Action-btn {
+  display: block;
+  padding: 11px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #E5C490 0%, #C69B61 100%);
+  color: var(--espresso-deep);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.refresh-reviews-btn {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(247, 242, 234, 0.06);
+  border: 1px solid rgba(213, 176, 124, 0.35);
+  color: var(--champagne-bright);
+  font-size: 0.73rem;
+}
+
+/* Right Stream: Filter Pills & Staggered Review Slips */
+.reviews-filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.rev-filter-btn {
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: rgba(247, 242, 234, 0.06);
+  border: 1px solid rgba(213, 176, 124, 0.3);
+  color: var(--travertine);
+  font-size: 0.78rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.rev-filter-btn.is-active,
+.rev-filter-btn:hover {
+  background: var(--champagne-gold);
+  color: var(--espresso-deep);
+  border-color: var(--champagne-bright);
+  font-weight: 700;
+}
+
+.reviews-masonry-track {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.review-slip {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-radius: 34px 14px 34px 14px;
+  background: rgba(54, 29, 19, 0.76);
+  border: 1px solid rgba(213, 176, 124, 0.35);
+  gap: 12px;
+}
+
+.review-slip.is-live-new {
+  border-color: #4CD97B;
+  box-shadow: 0 0 20px rgba(76, 217, 123, 0.18);
+}
+
+.rev-slip-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rev-author-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rev-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--champagne-gold);
+  background: var(--espresso-deep);
+}
+
+.rev-author-name {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--champagne-bright);
+}
+
+.rev-meta-line {
+  font-size: 0.7rem;
+  color: rgba(247, 242, 234, 0.68);
+}
+
+.rev-stars {
+  color: #F5B942;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.rev-body-text {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: rgba(247, 242, 234, 0.92);
+}
+
+/* Attached Client Nail Photos inside Review Slip */
+.rev-attached-photos {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rev-photo-btn {
+  width: 84px;
+  height: 84px;
+  border-radius: 42px 42px 12px 12px;
+  overflow: hidden;
+  border: 1.5px solid var(--champagne-gold);
+  transition: transform 0.2s ease;
+}
+
+.rev-photo-btn:hover {
+  transform: scale(1.05);
+}
+
+.rev-photo-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   SECTION 4: THE LAKE NONA SANCTUARY LEDGER (HOURS, ABOUT & INTERIOR)
+   ========================================================================== */
+
+.sanctuary-visit-section {
+  padding: 54px 28px 64px;
+  background: var(--travertine);
+}
+
+.sanctuary-grid {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.05fr 1.15fr;
+  gap: 28px;
+  align-items: start;
+}
+
+/* Column 1: Redrawn Logo Emblem & Contact */
+.sanctuary-identity-panel {
+  padding: 28px 24px;
+  border-radius: 36px;
+  background: var(--espresso-logo);
+  color: var(--travertine);
+  border: 2px solid var(--champagne-gold);
+  text-align: center;
+}
+
+.sanctuary-emblem {
+  width: 165px;
+  height: 165px;
+  margin: 0 auto 12px;
+  border-radius: 28px;
+  border: 1px solid rgba(213, 176, 124, 0.4);
+}
+
+.sanctuary-title {
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 600;
+  color: var(--champagne-bright);
+  line-height: 1.1;
+}
+
+.sanctuary-title span {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.28em;
+  display: block;
+  margin-top: 4px;
+  color: var(--champagne-gold);
+}
+
+.merchant-verbatim {
+  margin: 14px 0 18px;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: rgba(247, 242, 234, 0.84);
+}
+
+.contact-direct-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-bottom: 14px;
+}
+
+.contact-pill-link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(247, 242, 234, 0.07);
+  border: 1px solid rgba(213, 176, 124, 0.35);
+  transition: background 0.2s ease;
+}
+
+.contact-pill-link:hover {
+  background: rgba(213, 176, 124, 0.18);
+}
+
+.c-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--champagne-gold);
+}
+
+.contact-pill-link strong {
+  font-size: 0.92rem;
+  color: #FFF;
+  margin-top: 2px;
+}
+
+.social-direct-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(213, 176, 124, 0.22), rgba(213, 176, 124, 0.1));
+  border: 1px solid var(--champagne-gold);
+  color: var(--champagne-bright);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* Column 2: Hours Arch Card & Google About Attributes */
+.hours-arch-card {
+  padding: 26px 24px;
+  border-radius: 90px 90px 26px 26px;
+  background: #EFE6D7;
+  border: 1.5px solid var(--champagne-deep);
+}
+
+.hours-arch-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: var(--espresso-logo);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hours-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 0.82rem;
+}
+
+.hours-row.is-today {
+  background: var(--espresso-logo);
+  color: var(--champagne-bright);
+  font-weight: 700;
+}
+
+.hours-row dt {
+  font-weight: 600;
+}
+
+.hours-row dd {
+  text-align: right;
+}
+
+.day-perk {
+  display: block;
+  font-size: 0.66rem;
+  color: var(--bordeaux);
+  font-weight: 600;
+}
+
+.hours-row.is-today .day-perk {
+  color: var(--champagne-gold);
+}
+
+.about-attributes-box {
+  margin-top: 16px;
+  padding: 18px 20px;
+  border-radius: 24px;
+  background: #EFE6D7;
+  border: 1px solid rgba(54, 29, 19, 0.16);
+}
+
+.about-attributes-box h4 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--espresso-logo);
+  margin-bottom: 10px;
+}
+
+.attribute-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.attr-chip {
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(54, 29, 19, 0.14);
+  color: var(--espresso-logo);
+  font-weight: 500;
+}
+
+/* Column 3: Salon Interior Trio & Map */
+.sanctuary-interior-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.interior-photo-trio {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 10px;
+}
+
+.interior-frame {
+  overflow: hidden;
+  border: 2px solid var(--champagne-gold);
+  background: var(--espresso-logo);
+}
+
+.interior-frame--main {
+  height: 250px;
+  border-radius: 100px 22px 22px 22px;
+}
+
+.interior-frame-pair {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  height: 250px;
+}
+
+.interior-frame-pair .interior-frame {
+  height: 100%;
+  border-radius: 22px 60px 22px 22px;
+}
+
+.interior-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.interior-frame:hover img {
+  transform: scale(1.05);
+}
+
+.map-arch-frame {
+  height: 215px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px solid var(--champagne-gold);
+}
+
+.map-arch-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Footer */
+.site-footer {
+  padding: 22px 28px;
+  background: var(--espresso-deep);
+  color: rgba(247, 242, 234, 0.78);
+  border-top: 1px solid rgba(213, 176, 124, 0.25);
+  font-size: 0.78rem;
+}
+
+.footer-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-brand a,
+.footer-links a {
+  color: var(--champagne-bright);
+}
+
+.footer-links {
+  display: flex;
+  gap: 18px;
+}
+
+/* Mobile Dock (Hidden on Desktop) */
+.mobile-dock {
+  display: none;
+}
+
+/* Lightbox Modal */
+.photo-lightbox {
+  margin: auto;
+  padding: 0;
+  border: 2px solid var(--champagne-gold);
+  border-radius: 28px;
+  background: var(--espresso-deep);
+  color: var(--travertine);
+  max-width: min(92vw, 560px);
+  max-height: 90dvh;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.8);
+}
+
+.photo-lightbox::backdrop {
+  background: rgba(18, 8, 5, 0.84);
+  backdrop-filter: blur(8px);
+}
+
+.lightbox-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(34, 17, 11, 0.85);
+  border: 1px solid var(--champagne-gold);
+  color: var(--champagne-bright);
+  font-size: 1rem;
+  z-index: 5;
+}
+
+#lightboxImg {
+  width: 100%;
+  max-height: 74dvh;
+  object-fit: contain;
+  background: #140905;
+}
+
+.lightbox-bar {
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#lightboxCaption {
+  font-size: 0.82rem;
+  color: var(--champagne-bright);
+}
+
+.lightbox-call-cta {
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: var(--champagne-gold);
+  color: var(--espresso-deep);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   NATIVE MOBILE LAYOUT (<= 820px)
+   CRITICAL RULES:
+   1. Initial landing screen shows the 3 split photos full-screen inside the
+      luxurious gilded border, starting on the middle photo (index 1) and
+      fading into the next photo every 2 seconds continuously.
+   2. Below the fold, images NEVER take up the entire screen view — all
+      lookbook, review, flyer, and interior images are compact (<= 165px).
+   ========================================================================== */
+
+@media (max-width: 1120px) {
+  .atelier-layout,
+  .reviews-asymmetric-shell,
+  .promo-asymmetric-stage,
+  .sanctuary-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .swatch-fan-rail,
+  .reviews-score-pillar {
+    position: static;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  body {
+    padding-bottom: 68px;
+  }
+
+  .hero-stage {
+    height: 100svh;
+    min-height: 540px;
+    max-height: 920px;
+    padding: 8px 10px 12px;
+  }
+
+  .hero-top-rail {
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+
+  .rail-title {
+    font-size: 1.05rem;
+  }
+
+  .rail-sub {
+    font-size: 0.58rem;
+    letter-spacing: 0.18em;
+  }
+
+  .rail-call-btn {
+    padding: 6px 11px;
+    font-size: 0.74rem;
+  }
+
+  .rail-nav,
+  .live-hours-pill {
+    display: none;
+  }
+
+  .gilded-triptych-frame {
+    padding: 8px;
+    border-radius: 26px;
+  }
+
+  /* Single-stage stacked crossfade for the 3 hero images on mobile */
+  .triptych-grid {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .triptych-panel {
+    position: absolute;
+    inset: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.72s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 1;
+  }
+
+  .triptych-panel.is-active {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 2;
+  }
+
+  .panel-arch-border {
+    border-radius: 96px 96px 18px 18px;
+  }
+
+  .panel-arch-border::after {
+    border-radius: 89px 89px 13px 13px;
+  }
+
+  .hero-crest-seal {
+    bottom: 28px;
+    width: calc(100% - 28px);
+    max-width: 288px;
+  }
+
+  .crest-seal-inner {
+    padding: 8px 20px 10px;
+  }
+
+  .hero-exact-logo {
+    width: 106px;
+  }
+
+  .crest-seal-meta {
+    font-size: 0.62rem;
+    gap: 5px;
+  }
+
+  .mobile-triptych-dots {
+    position: absolute;
+    bottom: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 18;
+    display: flex;
+    gap: 8px;
+  }
+
+  .triptych-dot {
+    width: 22px;
+    height: 5px;
+    border-radius: 999px;
+    background: rgba(247, 242, 234, 0.35);
+    transition: background 0.3s ease, width 0.3s ease;
+  }
+
+  .triptych-dot.is-active {
+    width: 34px;
+    background: var(--champagne-gold);
+  }
+
+  /* Compact Horizontal Swatch Ribbon on Mobile */
+  .atelier-showcase {
+    padding: 26px 12px;
+  }
+
+  .swatch-fan-rail {
+    border-radius: 24px;
+    padding: 16px 12px;
+    overflow: hidden;
+  }
+
+  .nail-swatch-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+    max-width: 100%;
+  }
+
+  .nail-swatch-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nail-swatch {
+    width: auto;
+    flex-shrink: 0;
+    padding: 7px 12px 7px 8px;
+    border-radius: 999px;
+  }
+
+  .nail-swatch.is-active,
+  .nail-swatch:hover {
+    transform: none;
+  }
+
+  /* CRITICAL MOBILE RULE: Never let any below-the-fold photo fill the screen!
+     2-column compact silhouette mosaic with max-height 152px per photo */
+  .lookbook-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .lookbook-tile {
+    height: 152px;
+    max-height: 152px;
+    min-width: 0;
+  }
+
+  .lookbook-tile.shape-almond {
+    border-radius: 64px 64px 14px 14px;
+  }
+
+  .lookbook-tile.shape-petal {
+    border-radius: 14px 54px 14px 54px;
+  }
+
+  .tile-badge {
+    font-size: 0.58rem;
+    padding: 3px 7px;
+    bottom: 6px;
+    max-width: 92%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Promotions Compact Mobile Capsules */
+  .promotions-sanctuary {
+    padding: 26px 12px;
+  }
+
+  .promo-motto {
+    font-size: 0.64rem;
+    letter-spacing: 0.14em;
+  }
+
+  .promo-crest-header .section-serif-title {
+    font-size: 1.95rem;
+  }
+
+  .promo-capsule {
+    grid-template-columns: 94px 58px minmax(0, 1fr);
+    border-radius: 22px;
+    padding: 5px;
+  }
+
+  .promo-day-pill {
+    min-height: 54px;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    border-radius: 16px;
+  }
+
+  .promo-discount-medallion {
+    min-height: 54px;
+    margin-left: -4px;
+    border-radius: 14px;
+    padding: 4px;
+  }
+
+  .promo-discount-medallion strong {
+    font-size: 1.1rem;
+  }
+
+  .promo-discount-medallion span {
+    font-size: 0.66rem;
+  }
+
+  .promo-audience-box {
+    padding: 4px 8px;
+    min-width: 0;
+  }
+
+  .promo-audience-box h3 {
+    font-size: 0.88rem;
+    line-height: 1.15;
+  }
+
+  .promo-audience-box p {
+    font-size: 0.56rem;
+    line-height: 1.25;
+  }
+
+  .occasion-seal {
+    grid-template-columns: minmax(0, 1fr);
+    border-radius: 22px;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .original-flyers-strip {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .flyer-thumb-btn span {
+    font-size: 0.68rem;
+  }
+
+  .promo-disclaimer-ledger {
+    padding: 14px 14px;
+  }
+
+  .promo-disclaimer-ledger ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* Reviews Compact Mobile Layout */
+  .reviews-gallery-section {
+    padding: 26px 12px;
+  }
+
+  .score-medallion-card {
+    border-radius: 40px 40px 20px 20px;
+    padding: 18px 14px;
+  }
+
+  .mini-rev-photo {
+    height: 56px;
+    max-height: 56px;
+  }
+
+  .reviews-masonry-track {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .rev-photo-btn {
+    width: 70px;
+    height: 70px;
+    max-height: 70px;
+  }
+
+  /* Sanctuary Visit Section Compact Mobile */
+  .sanctuary-visit-section {
+    padding: 26px 12px 34px;
+  }
+
+  .sanctuary-emblem {
+    width: 112px;
+    height: 112px;
+    max-height: 112px;
+  }
+
+  .interior-photo-trio {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .interior-frame--main,
+  .interior-frame-pair {
+    height: 144px;
+    max-height: 144px;
+  }
+
+  .map-arch-frame {
+    height: 165px;
+  }
+
+  /* Native Mobile Bottom Dock */
+  .mobile-dock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    display: grid;
+    grid-template-columns: 1.2fr repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
+    background: rgba(34, 17, 11, 0.96);
+    border-top: 1.5px solid var(--champagne-gold);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .dock-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 4px;
+    border-radius: 999px;
+    color: var(--travertine);
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .dock-item--primary {
+    background: linear-gradient(135deg, #E5C490 0%, #C69B61 100%);
+    color: var(--espresso-deep);
+    font-weight: 700;
+  }
+}
