@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
 
@@ -34,10 +34,10 @@
        ===================================================================== -->
   <header class="hero-stage" id="top" aria-label="All Nails &amp; Spa Lake Nona Showcase">
 
-    <!-- Floating Top Brand & Action Ribbon (Non-intrusive, hugs upper frame edge) -->
+    <!-- Top Brand & Action Ribbon (Slightly larger logo & clear navigation) -->
     <div class="hero-top-rail">
       <a href="#top" class="rail-brand" aria-label="All Nails &amp; Spa Lake Nona Home">
-        <img src="assets/images/logo-crest-only.webp" alt="AN Monogram Crest" class="rail-crest" width="28" height="46" />
+        <img src="assets/images/logo-crest-only.webp" alt="AN Monogram Crest" class="rail-crest" width="34" height="55" />
         <div class="rail-brand-text">
           <span class="rail-title">All Nails &amp; Spa</span>
           <span class="rail-sub">Lake Nona</span>
@@ -75,7 +75,7 @@
 
         <!-- PANEL 1 (Left on Desktop, Slide 0 on Mobile):
              Deep Espresso/Mahogany Skin Tone · Glazed Rose-Gold Chrome Almond Gel-X Nails (Two Hand Angles) -->
-        <figure class="triptych-panel" data-slide-index="0">
+        <figure class="triptych-panel" data-slide-index="0" data-jump-service="Gel X">
           <div class="panel-arch-border">
             <picture>
               <source srcset="assets/images/hero/hero-split-1.webp" type="image/webp" />
@@ -88,14 +88,14 @@
               />
             </picture>
             <figcaption class="panel-whisper">
-              <span class="panel-tag">Gel X &amp; Chrome Glaze</span>
+              <button type="button" class="panel-tag" data-jump-service="Gel X">Gel X &amp; Chrome Glaze</button>
             </figcaption>
           </div>
         </figure>
 
         <!-- PANEL 2 (Center on Desktop, INITIAL Slide 1 on Mobile):
              Fair Porcelain Skin Tone · Glossy Cherry-Bordeaux Builder Gel Manicure with Gold Leaf (Two Hand Angles) -->
-        <figure class="triptych-panel is-active" data-slide-index="1">
+        <figure class="triptych-panel is-active" data-slide-index="1" data-jump-service="Builder Gel">
           <div class="panel-arch-border">
             <picture>
               <source srcset="assets/images/hero/hero-split-2.webp" type="image/webp" />
@@ -108,14 +108,14 @@
               />
             </picture>
             <figcaption class="panel-whisper">
-              <span class="panel-tag">Builder Gel &amp; Custom Nail Art</span>
+              <button type="button" class="panel-tag" data-jump-service="Builder Gel">Builder Gel &amp; Custom Nail Art</button>
             </figcaption>
           </div>
         </figure>
 
         <!-- PANEL 3 (Right on Desktop, Slide 2 on Mobile):
              Light-Skinned / Sun-Kissed Golden-Tan Skin Tone · Botanical Orchid Spa Pedicure -->
-        <figure class="triptych-panel" data-slide-index="2">
+        <figure class="triptych-panel" data-slide-index="2" data-jump-service="Spa Pedicure">
           <div class="panel-arch-border">
             <picture>
               <source srcset="assets/images/hero/hero-split-3.webp" type="image/webp" />
@@ -128,14 +128,14 @@
               />
             </picture>
             <figcaption class="panel-whisper">
-              <span class="panel-tag">Luxury Spa Pedicure</span>
+              <button type="button" class="panel-tag" data-jump-service="Spa Pedicure">Luxury Spa Pedicure</button>
             </figcaption>
           </div>
         </figure>
 
       </div>
 
-      <!-- Floating Center-Bottom Official Oval Medallion Seal (Exact Redrawn Logo) -->
+      <!-- Floating Center-Bottom Official Wide Oval Medallion Seal (Exact Redrawn Logo) -->
       <div class="hero-crest-seal">
         <div class="crest-seal-inner">
           <picture>
@@ -169,10 +169,7 @@
 
     <!-- =====================================================================
          SECTION 1: SCULPTED NAIL-TIP PALETTE (EXACT 7 SERVICES)
-                    & ORIGINAL SILHOUETTE LOOKBOOK
-         Layout: Left side is a tactile Nail-Swatch Fan of the 7 exact services.
-                 Right side is an asymmetric manicure-silhouette gallery of
-                 100% original salon photos (Almond arch, Pill oval, Squoval).
+                    & ORIGINAL SALON LOOKBOOK
          ===================================================================== -->
     <section class="atelier-showcase" id="services-lookbook" aria-labelledby="servicesHeading">
       <div class="atelier-layout">
@@ -180,7 +177,7 @@
         <!-- Left Rail: Sculpted Nail-Tip Swatch Selector (Exact 7 Services) -->
         <aside class="swatch-fan-rail">
           <div class="swatch-header">
-            <img src="assets/images/logo-crest-only.webp" alt="" class="mini-crest" width="24" height="39" />
+            <img src="assets/images/logo-crest-only.webp" alt="AN Monogram" class="mini-crest" width="30" height="48" />
             <div>
               <h1 id="servicesHeading" class="section-serif-title">Services</h1>
               <p class="minimal-sub">Walk-ins welcome · <a href="tel:+14072705969">407-270-5969</a></p>
@@ -230,7 +227,7 @@
             </button>
           </div>
 
-          <!-- Exact 10 Luxury Pedicure Collection Tiers (from their official Pedicure Collection board) -->
+          <!-- Exact 10 Luxury Pedicure Collection Tiers (Uniform styling, all interactive) -->
           <div class="pedicure-collection-box" id="pedicureCollectionBox">
             <div class="pedi-box-head">
               <span class="pedi-box-title">Luxury Pedicure Collection</span>
@@ -238,42 +235,89 @@
                 View Menu Board
               </button>
             </div>
-            <ul class="pedi-tier-pills">
-              <li>Relaxing Pedicure</li>
-              <li>Signature Pedicure</li>
-              <li>Deluxe Pedicure</li>
-              <li class="is-featured-tier">Milk &amp; Honey Pedicure</li>
-              <li>Lavender Pedicure</li>
-              <li>Sweet Orange Pedicure</li>
-              <li>Men’s Pedicure</li>
-              <li>Jelly Pedicure</li>
-              <li>Volcano Organic Pedicure</li>
-              <li>All Nails Signature Pedicure</li>
-            </ul>
+            <div class="pedi-tier-pills" role="group" aria-label="Luxury Pedicure Collection Tiers">
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Relaxing Pedicure — Luxury Pedicure Collection">Relaxing Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Signature Pedicure — Luxury Pedicure Collection">Signature Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Deluxe Pedicure — Luxury Pedicure Collection">Deluxe Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-26-122107954563308328.jpg" data-lightbox-caption="Milk &amp; Honey Hot Steam Pedicure — All Nails &amp; Spa Lake Nona">Milk &amp; Honey Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Lavender Pedicure — Luxury Pedicure Collection">Lavender Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Sweet Orange Pedicure — Luxury Pedicure Collection">Sweet Orange Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Men’s Pedicure — Luxury Pedicure Collection">Men’s Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Jelly Pedicure — Luxury Pedicure Collection">Jelly Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="Volcano Organic Pedicure — Luxury Pedicure Collection">Volcano Organic Pedicure</button>
+              <button type="button" class="pedi-tier-pill" data-lightbox-src="assets/images/social/fb-post-31-122112868869308328.jpg" data-lightbox-caption="All Nails Signature Pedicure — Luxury Pedicure Collection">All Nails Signature Pedicure</button>
+            </div>
           </div>
         </aside>
 
-        <!-- Right Stage: Asymmetric Manicure-Silhouette Mosaic of Original Photos -->
+        <!-- Right Stage: Lookbook Stage Header + Gallery of Original Salon Photos -->
         <div class="silhouette-lookbook-stage">
-          <div class="lookbook-mosaic" id="lookbookMosaic">
-            <!-- Populated by app.js with 24+ original Instagram, Facebook & Google salon photos
-                 in mixed Almond-Arch, Oval-Pill, and Squoval frames -->
-          </div>
-
-          <div class="lookbook-footer-bar">
-            <button type="button" class="lookbook-more-btn" id="toggleAllPhotosBtn">
-              Show All 48+ Original Salon Photos
-            </button>
+          <div class="lookbook-stage-header">
+            <div class="lookbook-stage-titles">
+              <h2 id="lookbookActiveTitle" class="lookbook-active-title">All Salon Work</h2>
+              <p id="lookbookActiveSub" class="lookbook-active-sub">Original nail artistry &amp; spa pedicures created at All Nails &amp; Spa Lake Nona — click any photo to inspect full screen.</p>
+            </div>
             <div class="lookbook-social-pills">
               <a href="https://www.instagram.com/allnailsspa.lakenona" target="_blank" rel="noopener noreferrer" class="social-pill">
                 <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1"/></svg>
-                <span>@allnailsspa.lakenona</span>
+                <span>Instagram</span>
               </a>
               <a href="https://www.facebook.com/p/All-Nails-Spa-Lake-Nona-61589249850732/" target="_blank" rel="noopener noreferrer" class="social-pill">
                 <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                <span>Facebook Page</span>
+                <span>Facebook</span>
               </a>
             </div>
+          </div>
+
+          <div class="lookbook-mosaic" id="lookbookMosaic">
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-18-122096833059308328.jpg" data-lightbox-caption="Nail Art · 3D Spring Blossom — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Nail Art · 3D Spring Blossom">
+              <img src="assets/images/social/fb-post-18-122096833059308328.webp" alt="Nail Art · 3D Spring Blossom" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Nail Art · 3D Spring Blossom</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/ig-post-34-DatQzk1st74.jpg" data-lightbox-caption="Acrylic Nails · Crisp V-French — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Acrylic Nails · Crisp V-French">
+              <img src="assets/images/social/ig-post-34-DatQzk1st74.webp" alt="Acrylic Nails · Crisp V-French" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Acrylic Nails · Crisp V-French</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/ig-post-05-Deme1fTBoPB.jpg" data-lightbox-caption="Spa Pedicure · Glossy French &amp; Bow — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Spa Pedicure · Glossy French &amp; Bow">
+              <img src="assets/images/social/ig-post-05-Deme1fTBoPB.webp" alt="Spa Pedicure · Glossy French &amp; Bow" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Spa Pedicure · Glossy French &amp; Bow</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-46-122110230921308328.jpg" data-lightbox-caption="Builder Gel · Milky Pink &amp; 3D Florals — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Builder Gel · Milky Pink &amp; 3D Florals">
+              <img src="assets/images/social/fb-post-46-122110230921308328.webp" alt="Builder Gel · Milky Pink &amp; 3D Florals" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Builder Gel · Milky Pink &amp; 3D Florals</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/ig-post-28-Da-QHfdNFy8.jpg" data-lightbox-caption="Gel X · Glazed Chrome Almond — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Gel X · Glazed Chrome Almond">
+              <img src="assets/images/social/ig-post-28-Da-QHfdNFy8.webp" alt="Gel X · Glazed Chrome Almond" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Gel X · Glazed Chrome Almond</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-06-122115192009308328.jpg" data-lightbox-caption="Nail Art · Ruby Cat-Eye &amp; Gold Frame — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Nail Art · Ruby Cat-Eye &amp; Gold Frame">
+              <img src="assets/images/social/fb-post-06-122115192009308328.webp" alt="Nail Art · Ruby Cat-Eye &amp; Gold Frame" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Nail Art · Ruby Cat-Eye &amp; Gold Frame</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/ig-post-39-DaXmrmYBsdu.jpg" data-lightbox-caption="Gel Manicure · Classic White French — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Gel Manicure · Classic White French">
+              <img src="assets/images/social/ig-post-39-DaXmrmYBsdu.webp" alt="Gel Manicure · Classic White French" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Gel Manicure · Classic White French</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-26-122107954563308328.jpg" data-lightbox-caption="Spa Pedicure · Milk &amp; Honey Hot Steam — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Spa Pedicure · Milk &amp; Honey Hot Steam">
+              <img src="assets/images/social/fb-post-26-122107954563308328.webp" alt="Spa Pedicure · Milk &amp; Honey Hot Steam" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Spa Pedicure · Milk &amp; Honey Hot Steam</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-53-122108916489308328.jpg" data-lightbox-caption="Acrylic Nails · Celestial Gold Aura — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Acrylic Nails · Celestial Gold Aura">
+              <img src="assets/images/social/fb-post-53-122108916489308328.webp" alt="Acrylic Nails · Celestial Gold Aura" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Acrylic Nails · Celestial Gold Aura</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/ig-post-27-DbBFVH2ABbY.jpg" data-lightbox-caption="Builder Gel · Bridal Pearl Almond — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Builder Gel · Bridal Pearl Almond">
+              <img src="assets/images/social/ig-post-27-DbBFVH2ABbY.webp" alt="Builder Gel · Bridal Pearl Almond" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Builder Gel · Bridal Pearl Almond</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-23-122113098909308328.jpg" data-lightbox-caption="Nail Art · Wine Aura &amp; Hibiscus — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Nail Art · Wine Aura &amp; Hibiscus">
+              <img src="assets/images/social/fb-post-23-122113098909308328.webp" alt="Nail Art · Wine Aura &amp; Hibiscus" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Nail Art · Wine Aura &amp; Hibiscus</figcaption>
+            </figure>
+            <figure class="lookbook-tile" data-lightbox-src="assets/images/social/fb-post-40-122112604929308328.jpg" data-lightbox-caption="Waxing &amp; Spa Sanctuary · Lake Nona — All Nails &amp; Spa Lake Nona" tabindex="0" role="button" aria-label="Inspect Waxing &amp; Spa Sanctuary · Lake Nona">
+              <img src="assets/images/social/fb-post-40-122112604929308328.webp" alt="Waxing &amp; Spa Sanctuary · Lake Nona" loading="lazy" width="360" height="450" />
+              <figcaption class="tile-badge">Waxing &amp; Spa Sanctuary · Lake Nona</figcaption>
+            </figure>
           </div>
         </div>
 
@@ -293,9 +337,6 @@
           <h2 id="promoHeading" class="section-serif-title">Special Promotions</h2>
         </div>
 
-        <!-- Asymmetric Two-Zone Capsule Layout:
-             Left: Mon / Tue / Wed Interlocking Day Capsules
-             Right: Birthday Blush Seal + Google Review Slate Seal + Original Flyer Thumbnail -->
         <div class="promo-asymmetric-stage">
 
           <!-- Left Track: Monday, Tuesday, Wednesday Capsules -->
@@ -344,10 +385,10 @@
 
             <article class="occasion-seal occasion-seal--birthday">
               <div class="occasion-badge">
-                <span class="occasion-icon" aria-hidden="true">🎂</span>
+                <span class="occasion-icon occasion-icon--bday" aria-hidden="true">🎂</span>
                 <div>
                   <strong>10% OFF</strong>
-                  <span>ON YOUR BIRTHDAY</span>
+                  <span class="occasion-label">ON YOUR BIRTHDAY</span>
                 </div>
               </div>
               <div class="occasion-rules">
@@ -361,7 +402,7 @@
                 <span class="occasion-icon occasion-icon--g" aria-hidden="true">G</span>
                 <div>
                   <strong>5% OFF</strong>
-                  <span>FOR GOOGLE REVIEW</span>
+                  <span class="occasion-label">FOR GOOGLE REVIEW</span>
                 </div>
               </div>
               <div class="occasion-rules">
@@ -428,7 +469,30 @@
 
             <!-- Client Review Photo Filmstrip (All Original Review Photos) -->
             <div class="review-photos-mini-strip" id="reviewPhotoStrip" aria-label="Client submitted nail photos from Google Reviews">
-              <!-- Populated by app.js -->
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-01-cindy-acevedo-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Cindy Acevedo" aria-label="Client nail photo by Cindy Acevedo">
+                <img src="assets/images/reviews/review-01-cindy-acevedo-1.webp" alt="Client nails by Cindy Acevedo" loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-04-sara-i-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Sara i." aria-label="Client nail photo by Sara i.">
+                <img src="assets/images/reviews/review-04-sara-i-1.webp" alt="Client nails by Sara i." loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-04-sara-i-2.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Sara i." aria-label="Client nail photo by Sara i.">
+                <img src="assets/images/reviews/review-04-sara-i-2.webp" alt="Client nails by Sara i." loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-04-sara-i-3.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Sara i." aria-label="Client nail photo by Sara i.">
+                <img src="assets/images/reviews/review-04-sara-i-3.webp" alt="Client nails by Sara i." loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-06-duda-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by duda -" aria-label="Client nail photo by duda -">
+                <img src="assets/images/reviews/review-06-duda-1.webp" alt="Client nails by duda -" loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-07-amanda-serafin-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Amanda Serafin" aria-label="Client nail photo by Amanda Serafin">
+                <img src="assets/images/reviews/review-07-amanda-serafin-1.webp" alt="Client nails by Amanda Serafin" loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-09-b-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by B" aria-label="Client nail photo by B">
+                <img src="assets/images/reviews/review-09-b-1.webp" alt="Client nails by B" loading="lazy" width="80" height="80" />
+              </button>
+              <button type="button" class="mini-rev-photo" data-lightbox-src="assets/images/reviews/review-10-mariana-alfaro-1.jpg" data-lightbox-caption="Verified Google Review Nail Photo by Mariana Alfaro" aria-label="Client nail photo by Mariana Alfaro">
+                <img src="assets/images/reviews/review-10-mariana-alfaro-1.webp" alt="Client nails by Mariana Alfaro" loading="lazy" width="80" height="80" />
+              </button>
             </div>
 
             <div class="reviews-cta-stack">
@@ -458,7 +522,7 @@
           </div>
 
           <div class="reviews-masonry-track" id="reviewsContainer">
-            <!-- Populated dynamically by app.js from /api/google-reviews.php (and fallback /data/google-reviews.json) -->
+            <!-- Populated by app.js & pre-seeded for instant render -->
           </div>
         </div>
 
@@ -476,14 +540,14 @@
         <!-- Column 1: Redrawn Exact Logo Seal, Address, Phone & Socials -->
         <div class="sanctuary-identity-panel">
           <picture>
-            <source srcset="assets/images/logo-redrawn.webp" type="image/webp" />
+            <source srcset="assets/images/logo-transparent-cropped.webp" type="image/webp" />
             <img
-              src="assets/images/logo-redrawn.png"
+              src="assets/images/logo-transparent-cropped.png"
               alt="All Nails Spa Lake Nona Emblem"
               class="sanctuary-emblem"
               loading="lazy"
-              width="180"
-              height="180"
+              width="175"
+              height="160"
             />
           </picture>
 
@@ -507,11 +571,11 @@
           <div class="social-direct-row">
             <a href="https://www.instagram.com/allnailsspa.lakenona" target="_blank" rel="noopener noreferrer" class="social-action-btn">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1"/></svg>
-              <span>Instagram · @allnailsspa.lakenona</span>
+              <span>Instagram</span>
             </a>
             <a href="https://www.facebook.com/p/All-Nails-Spa-Lake-Nona-61589249850732/" target="_blank" rel="noopener noreferrer" class="social-action-btn">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-              <span>Facebook · All Nails Spa Lake Nona</span>
+              <span>Facebook</span>
             </a>
           </div>
         </div>
@@ -575,11 +639,11 @@
               <img src="assets/images/social/fb-post-40-122112604929308328.webp" alt="All Nails &amp; Spa Lake Nona Marble Manicure Stations and Polish Wall" loading="lazy" width="420" height="520" />
             </button>
             <div class="interior-frame-pair">
-              <button type="button" class="interior-frame" data-lightbox-src="assets/images/social/fb-post-35-122112604947308328.jpg" data-lightbox-caption="Marble Manicure Tables &amp; Polish Wall — All Nails &amp; Spa Lake Nona">
-                <img src="assets/images/social/fb-post-35-122112604947308328.webp" alt="Marble manicure stations" loading="lazy" width="210" height="260" />
+              <button type="button" class="interior-frame" data-lightbox-src="assets/images/social/ig-post-47-DaDR8XeAt2E.jpg" data-lightbox-caption="Marble Manicure Stations &amp; Illuminated Polish Wall — All Nails &amp; Spa Lake Nona">
+                <img src="assets/images/social/ig-post-47-DaDR8XeAt2E.webp" alt="Marble manicure stations and polish wall" loading="lazy" width="210" height="260" />
               </button>
-              <button type="button" class="interior-frame" data-lightbox-src="assets/images/social/ig-post-03-DaJkdhXsruD.jpg" data-lightbox-caption="Luxury Spa Pedicure Tray with Champagne &amp; Botanical Scrubs">
-                <img src="assets/images/social/ig-post-03-DaJkdhXsruD.webp" alt="Spa pedicure golden tray" loading="lazy" width="210" height="260" />
+              <button type="button" class="interior-frame" data-lightbox-src="assets/images/google/google-photo-17.jpg" data-lightbox-caption="All Nails &amp; Spa Lake Nona Storefront at 9356 Narcoossee Rd in Nona Park">
+                <img src="assets/images/google/google-photo-17.webp" alt="All Nails &amp; Spa Lake Nona storefront at 9356 Narcoossee Rd" loading="lazy" width="210" height="260" />
               </button>
             </div>
           </div>
@@ -604,7 +668,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="assets/images/logo-crest-only.webp" alt="AN Crest" width="22" height="36" loading="lazy" />
+        <img src="assets/images/logo-crest-only.webp" alt="AN Crest" width="24" height="39" loading="lazy" />
         <span>ALL NAILS &amp; SPA LAKE NONA · 9356 Narcoossee Rd, Orlando, FL 32827 · <a href="tel:+14072705969">407-270-5969</a></span>
       </div>
       <div class="footer-links">
@@ -647,6 +711,6 @@
     </div>
   </dialog>
 
-  <script src="app.js" defer></script>
+  <script src="app.js?v=3" defer></script>
 </body>
 </html>

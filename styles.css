@@ -69,6 +69,13 @@ button {
   background: none;
 }
 
+button:focus-visible,
+a:focus-visible,
+[role="button"]:focus-visible {
+  outline: 2px solid var(--champagne-bright);
+  outline-offset: 2px;
+}
+
 /* ==========================================================================
    FIRST VIEW: THE GILDED NAIL-ARCH TRIPTYCH (100dvh)
    ========================================================================== */
@@ -77,31 +84,31 @@ button {
   position: relative;
   width: 100%;
   height: 100dvh;
-  min-height: 620px;
+  min-height: 640px;
   max-height: 1120px;
   background:
     radial-gradient(circle at 50% 0%, rgba(213, 176, 124, 0.22), transparent 60%),
     linear-gradient(180deg, #2B160E 0%, #1C0D08 100%);
-  padding: 14px 18px 18px;
+  padding: 12px 18px 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
 }
 
-/* Top Floating Ribbon inside Hero */
+/* Top Floating Ribbon inside Hero (Slightly larger logo & clear navigation) */
 .hero-top-rail {
   position: relative;
   z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 6px 16px;
+  gap: 18px;
+  padding: 8px 20px;
   margin-bottom: 10px;
   border-radius: 999px;
-  background: rgba(34, 17, 11, 0.82);
-  border: 1px solid rgba(213, 176, 124, 0.45);
+  background: rgba(34, 17, 11, 0.86);
+  border: 1px solid rgba(213, 176, 124, 0.5);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   color: var(--travertine);
@@ -110,13 +117,14 @@ button {
 .rail-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .rail-crest {
-  width: 24px;
-  height: 39px;
+  width: 34px;
+  height: 55px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .rail-brand-text {
@@ -127,30 +135,31 @@ button {
 
 .rail-title {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: 1.42rem;
   font-weight: 600;
   color: var(--champagne-bright);
   letter-spacing: 0.02em;
 }
 
 .rail-sub {
-  font-size: 0.65rem;
-  letter-spacing: 0.24em;
+  margin-top: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: rgba(247, 242, 234, 0.78);
+  color: rgba(247, 242, 234, 0.82);
 }
 
 .rail-nav {
   display: flex;
   align-items: center;
-  gap: 24px;
-  font-size: 0.82rem;
+  gap: 26px;
+  font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.04em;
 }
 
 .rail-nav a {
-  color: rgba(247, 242, 234, 0.88);
+  color: rgba(247, 242, 234, 0.9);
   transition: color 0.2s ease;
 }
 
@@ -168,11 +177,11 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 5px 12px;
+  padding: 6px 13px;
   border-radius: 999px;
-  background: rgba(213, 176, 124, 0.13);
-  border: 1px solid rgba(213, 176, 124, 0.35);
-  font-size: 0.74rem;
+  background: rgba(213, 176, 124, 0.14);
+  border: 1px solid rgba(213, 176, 124, 0.38);
+  font-size: 0.75rem;
   color: var(--champagne-bright);
 }
 
@@ -188,11 +197,11 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  padding: 7px 15px;
+  padding: 8px 16px;
   border-radius: 999px;
   background: linear-gradient(135deg, #E5C490 0%, #C69B61 100%);
   color: var(--espresso-deep);
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   box-shadow: 0 4px 14px rgba(213, 176, 124, 0.28);
@@ -260,6 +269,7 @@ button {
   min-height: 0;
   height: 100%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 /* Each Panel's Luxurious Sculpted Nail-Arch Gilded Border */
@@ -301,36 +311,42 @@ button {
   transform: scale(1.03);
 }
 
-/* Subtle Corner Tag on Panel (Never blocks the nails or spa work) */
+/* Interactive Service Pill on Panel */
 .panel-whisper {
   position: absolute;
   top: 16px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 4;
-  pointer-events: none;
+  z-index: 5;
 }
 
 .panel-tag {
   display: inline-block;
-  padding: 4px 13px;
+  padding: 5px 15px;
   border-radius: 999px;
-  background: rgba(34, 17, 11, 0.72);
-  border: 1px solid rgba(213, 176, 124, 0.65);
+  background: rgba(34, 17, 11, 0.78);
+  border: 1px solid rgba(213, 176, 124, 0.72);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   color: var(--champagne-bright);
   font-family: var(--font-serif);
-  font-size: 0.86rem;
+  font-size: 0.88rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   white-space: nowrap;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
-/* Floating Official Oval Crest Seal at Bottom Center of Triptych */
+.panel-tag:hover {
+  background: var(--espresso-logo);
+  border-color: var(--champagne-bright);
+  transform: translateY(-1px);
+}
+
+/* Floating Official Wide Oval Crest Seal at Bottom Center of Triptych */
 .hero-crest-seal {
   position: absolute;
-  bottom: 14px;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 16;
@@ -341,32 +357,33 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px 38px 14px;
+  justify-content: center;
+  min-width: 480px;
+  padding: 14px 72px 20px;
   border-radius: 999px;
-  background: rgba(54, 29, 19, 0.94);
+  background: rgba(54, 29, 19, 0.96);
   border: 1.5px solid var(--champagne-gold);
   box-shadow:
     inset 0 0 0 3px var(--espresso-deep),
-    inset 0 0 0 4px rgba(213, 176, 124, 0.45),
+    inset 0 0 0 4.5px rgba(213, 176, 124, 0.5),
     0 14px 36px rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
 .hero-exact-logo {
-  width: 144px;
+  width: 146px;
   height: auto;
   object-fit: contain;
 }
 
 .crest-seal-meta {
-  margin-top: 5px;
+  margin-top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  font-size: 0.71rem;
+  gap: 8px;
+  font-size: 0.76rem;
   letter-spacing: 0.04em;
   color: var(--champagne-bright);
   white-space: nowrap;
@@ -379,7 +396,7 @@ button {
 }
 
 .seal-star {
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   color: var(--champagne-gold);
 }
 
@@ -389,12 +406,12 @@ button {
 }
 
 /* ==========================================================================
-   SECTION 1: SCULPTED NAIL-TIP SWATCH RAIL & SILHOUETTE LOOKBOOK
+   SECTION 1: SCULPTED NAIL-TIP SWATCH RAIL & SALON LOOKBOOK
    ========================================================================== */
 
 .atelier-showcase {
   position: relative;
-  padding: 52px 28px 44px;
+  padding: 52px 28px 48px;
   background:
     radial-gradient(ellipse at 15% 15%, rgba(213, 176, 124, 0.18), transparent 55%),
     var(--travertine);
@@ -405,19 +422,19 @@ button {
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 350px 1fr;
   gap: 34px;
   align-items: start;
 }
 
-/* Left Rail: Sculpted Nail-Tip Swatch Fan */
+/* Left Rail: Clean Architectural Border Radius so AN Crest is NEVER clipped */
 .swatch-fan-rail {
   position: sticky;
   top: 20px;
   background: var(--espresso-logo);
   color: var(--travertine);
-  padding: 24px 20px;
-  border-radius: 90px 28px 28px 28px;
+  padding: 26px 22px;
+  border-radius: 30px;
   border: 1.5px solid var(--champagne-gold);
   box-shadow:
     inset 0 0 0 4px var(--espresso-deep),
@@ -428,16 +445,17 @@ button {
 .swatch-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding-bottom: 16px;
+  gap: 14px;
+  padding: 2px 4px 16px;
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(213, 176, 124, 0.28);
 }
 
 .mini-crest {
-  width: 26px;
-  height: 42px;
+  width: 30px;
+  height: 48px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .section-serif-title {
@@ -450,9 +468,9 @@ button {
 }
 
 .minimal-sub {
-  margin-top: 3px;
-  font-size: 0.78rem;
-  color: rgba(247, 242, 234, 0.78);
+  margin-top: 4px;
+  font-size: 0.79rem;
+  color: rgba(247, 242, 234, 0.82);
 }
 
 .minimal-sub a {
@@ -472,19 +490,18 @@ button {
   align-items: center;
   gap: 13px;
   width: 100%;
-  padding: 8px 14px 8px 10px;
-  border-radius: 999px 26px 26px 999px;
+  padding: 9px 16px 9px 11px;
+  border-radius: 999px;
   background: rgba(247, 242, 234, 0.05);
-  border: 1px solid rgba(213, 176, 124, 0.25);
+  border: 1px solid rgba(213, 176, 124, 0.26);
   color: var(--travertine);
   text-align: left;
-  transition: all 0.22s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nail-swatch:hover {
   background: rgba(213, 176, 124, 0.16);
   border-color: var(--champagne-gold);
-  transform: translateX(4px);
 }
 
 .nail-swatch.is-active {
@@ -493,7 +510,6 @@ button {
   border-color: var(--champagne-bright);
   font-weight: 700;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
-  transform: translateX(6px);
 }
 
 /* Realistic Almond Nail Tip Swatch Icon */
@@ -538,7 +554,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-/* Luxury Pedicure Collection 10-Tier Sub-Ledger */
+/* Luxury Pedicure Collection 10-Tier Interactive Sub-Ledger */
 .pedicure-collection-box {
   margin-top: 18px;
   padding-top: 16px;
@@ -550,52 +566,109 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .pedi-box-title {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   font-weight: 600;
   color: var(--champagne-bright);
 }
 
 .pedi-card-preview-btn {
-  padding: 3px 9px;
+  padding: 5px 11px;
   border-radius: 999px;
   background: rgba(213, 176, 124, 0.18);
-  border: 1px solid rgba(213, 176, 124, 0.45);
+  border: 1px solid rgba(213, 176, 124, 0.48);
   color: var(--champagne-bright);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.pedi-card-preview-btn:hover {
+  background: rgba(213, 176, 124, 0.32);
+  border-color: var(--champagne-bright);
 }
 
 .pedi-tier-pills {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 6px;
 }
 
-.pedi-tier-pills li {
-  font-size: 0.7rem;
-  padding: 3px 9px;
+.pedi-tier-pill {
+  font-size: 0.71rem;
+  padding: 4px 10px;
   border-radius: 999px;
   background: rgba(247, 242, 234, 0.07);
-  border: 1px solid rgba(213, 176, 124, 0.22);
+  border: 1px solid rgba(213, 176, 124, 0.26);
   color: rgba(247, 242, 234, 0.9);
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
-.pedi-tier-pills li.is-featured-tier {
-  background: rgba(213, 176, 124, 0.24);
+.pedi-tier-pill:hover,
+.pedi-tier-pill.is-selected {
+  background: rgba(213, 176, 124, 0.25);
   border-color: var(--champagne-gold);
   color: var(--champagne-bright);
-  font-weight: 600;
 }
 
-/* Right Stage: Asymmetric Manicure-Silhouette Lookbook Mosaic */
+/* Right Stage: Lookbook Stage Header + Uniform Gallery Cards */
 .silhouette-lookbook-stage {
   min-width: 0;
+}
+
+.lookbook-stage-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(54, 29, 19, 0.12);
+}
+
+.lookbook-active-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--espresso-logo);
+  line-height: 1.1;
+}
+
+.lookbook-active-sub {
+  margin-top: 4px;
+  font-size: 0.84rem;
+  color: var(--espresso-soft);
+}
+
+.lookbook-social-pills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--travertine-warm);
+  border: 1px solid rgba(54, 29, 19, 0.22);
+  color: var(--espresso-logo);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.social-pill:hover {
+  background: #E8DAC5;
+  border-color: var(--champagne-deep);
+  transform: translateY(-1px);
 }
 
 .lookbook-mosaic {
@@ -608,6 +681,7 @@ button {
 .lookbook-tile {
   position: relative;
   height: 295px;
+  border-radius: 22px;
   overflow: hidden;
   background: var(--espresso-logo);
   border: 2px solid var(--champagne-gold);
@@ -619,23 +693,6 @@ button {
 .lookbook-tile:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 32px rgba(34, 17, 11, 0.22);
-}
-
-/* 4 Distinct Non-Standard Nail & Gemstone Silhouettes */
-.lookbook-tile.shape-almond {
-  border-radius: 135px 135px 22px 22px;
-}
-
-.lookbook-tile.shape-oval {
-  border-radius: 999px;
-}
-
-.lookbook-tile.shape-squoval {
-  border-radius: 44px 14px 44px 14px;
-}
-
-.lookbook-tile.shape-petal {
-  border-radius: 18px 115px 18px 115px;
 }
 
 .lookbook-tile img {
@@ -651,70 +708,22 @@ button {
 
 .tile-badge {
   position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 4px 11px;
-  border-radius: 999px;
-  background: rgba(34, 17, 11, 0.8);
-  border: 1px solid rgba(213, 176, 124, 0.6);
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: rgba(34, 17, 11, 0.84);
+  border: 1px solid rgba(213, 176, 124, 0.55);
   color: var(--champagne-bright);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 600;
+  text-align: center;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-}
-
-.lookbook-footer-bar {
-  margin-top: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-.lookbook-more-btn {
-  padding: 11px 24px;
-  border-radius: 999px;
-  background: var(--espresso-logo);
-  color: var(--champagne-bright);
-  border: 1.5px solid var(--champagne-gold);
-  font-size: 0.84rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.lookbook-more-btn:hover {
-  background: var(--espresso-deep);
-  transform: translateY(-1px);
-}
-
-.lookbook-social-pills {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.social-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 8px 15px;
-  border-radius: 999px;
-  background: var(--travertine-warm);
-  border: 1px solid rgba(54, 29, 19, 0.2);
-  color: var(--espresso-logo);
-  font-size: 0.78rem;
-  font-weight: 600;
-  transition: border-color 0.2s ease, background 0.2s ease;
-}
-
-.social-pill:hover {
-  background: #E8DAC5;
-  border-color: var(--champagne-deep);
 }
 
 /* ==========================================================================
@@ -851,7 +860,7 @@ button {
 
 .occasion-seal {
   display: grid;
-  grid-template-columns: 185px 1fr;
+  grid-template-columns: 192px 1fr;
   align-items: center;
   gap: 14px;
   padding: 12px 18px 12px 12px;
@@ -873,21 +882,27 @@ button {
   gap: 10px;
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .occasion-icon {
-  font-size: 1.5rem;
-}
-
-.occasion-icon--g {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  background: var(--google-blue);
-  color: #FFF;
   display: grid;
   place-items: center;
+  flex-shrink: 0;
+}
+
+.occasion-badge .occasion-icon--bday {
+  background: #F7D4CE;
+  border: 1px solid rgba(158, 118, 64, 0.35);
+  font-size: 1.2rem;
+}
+
+.occasion-badge .occasion-icon--g {
+  background: var(--google-blue);
+  color: #FFFFFF;
   font-weight: 800;
   font-size: 1.15rem;
 }
@@ -901,7 +916,7 @@ button {
   line-height: 1;
 }
 
-.occasion-badge span {
+.occasion-badge .occasion-label {
   font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -930,29 +945,30 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 7px 12px 7px 7px;
+  padding: 7px 14px 7px 8px;
   border-radius: 999px;
   background: rgba(54, 29, 19, 0.07);
-  border: 1px solid rgba(54, 29, 19, 0.18);
+  border: 1px solid rgba(54, 29, 19, 0.2);
   text-align: left;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .flyer-thumb-btn:hover {
-  background: rgba(213, 176, 124, 0.25);
+  background: rgba(213, 176, 124, 0.28);
+  transform: translateY(-1px);
 }
 
 .flyer-thumb-btn img {
   width: 42px;
   height: 52px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 12px;
   border: 1px solid var(--champagne-deep);
   flex-shrink: 0;
 }
 
 .flyer-thumb-btn span {
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   font-weight: 600;
   color: var(--espresso-logo);
   line-height: 1.25;
@@ -1017,7 +1033,7 @@ button {
 
 .score-medallion-card {
   padding: 28px 22px;
-  border-radius: 120px 120px 28px 28px;
+  border-radius: 34px;
   background: var(--espresso-logo);
   border: 2px solid var(--champagne-gold);
   box-shadow:
@@ -1091,16 +1107,21 @@ button {
 .review-photos-mini-strip {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 7px;
+  gap: 8px;
   margin-bottom: 18px;
 }
 
 .mini-rev-photo {
   height: 68px;
-  border-radius: 36px 36px 10px 10px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1.5px solid var(--champagne-gold);
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.mini-rev-photo:hover {
+  transform: scale(1.04);
 }
 
 .mini-rev-photo img {
@@ -1123,6 +1144,11 @@ button {
   color: var(--espresso-deep);
   font-size: 0.78rem;
   font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.google-Action-btn:hover {
+  transform: translateY(-1px);
 }
 
 .refresh-reviews-btn {
@@ -1132,6 +1158,11 @@ button {
   border: 1px solid rgba(213, 176, 124, 0.35);
   color: var(--champagne-bright);
   font-size: 0.73rem;
+  transition: background 0.2s ease;
+}
+
+.refresh-reviews-btn:hover {
+  background: rgba(213, 176, 124, 0.16);
 }
 
 /* Right Stream: Filter Pills & Staggered Review Slips */
@@ -1172,7 +1203,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   padding: 18px 20px;
-  border-radius: 34px 14px 34px 14px;
+  border-radius: 24px;
   background: rgba(54, 29, 19, 0.76);
   border: 1px solid rgba(213, 176, 124, 0.35);
   gap: 12px;
@@ -1239,7 +1270,7 @@ button {
 .rev-photo-btn {
   width: 84px;
   height: 84px;
-  border-radius: 42px 42px 12px 12px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1.5px solid var(--champagne-gold);
   transition: transform 0.2s ease;
@@ -1276,19 +1307,21 @@ button {
 /* Column 1: Redrawn Logo Emblem & Contact */
 .sanctuary-identity-panel {
   padding: 28px 24px;
-  border-radius: 36px;
+  border-radius: 32px;
   background: var(--espresso-logo);
   color: var(--travertine);
   border: 2px solid var(--champagne-gold);
+  box-shadow:
+    inset 0 0 0 4px var(--espresso-deep),
+    inset 0 0 0 5px rgba(213, 176, 124, 0.35);
   text-align: center;
 }
 
 .sanctuary-emblem {
   width: 165px;
-  height: 165px;
+  height: auto;
   margin: 0 auto 12px;
-  border-radius: 28px;
-  border: 1px solid rgba(213, 176, 124, 0.4);
+  object-fit: contain;
 }
 
 .sanctuary-title {
@@ -1350,9 +1383,9 @@ button {
 }
 
 .social-direct-row {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .social-action-btn {
@@ -1360,19 +1393,25 @@ button {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 9px 14px;
+  padding: 10px 14px;
   border-radius: 999px;
-  background: linear-gradient(135deg, rgba(213, 176, 124, 0.22), rgba(213, 176, 124, 0.1));
+  background: linear-gradient(135deg, rgba(213, 176, 124, 0.24), rgba(213, 176, 124, 0.1));
   border: 1px solid var(--champagne-gold);
   color: var(--champagne-bright);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
-/* Column 2: Hours Arch Card & Google About Attributes */
+.social-action-btn:hover {
+  background: rgba(213, 176, 124, 0.32);
+  transform: translateY(-1px);
+}
+
+/* Column 2: Hours Card & Google About Attributes */
 .hours-arch-card {
   padding: 26px 24px;
-  border-radius: 90px 90px 26px 26px;
+  border-radius: 30px;
   background: #EFE6D7;
   border: 1.5px solid var(--champagne-deep);
 }
@@ -1399,7 +1438,7 @@ button {
   gap: 10px;
   padding: 8px 14px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.65);
   font-size: 0.82rem;
 }
 
@@ -1474,13 +1513,14 @@ button {
 
 .interior-frame {
   overflow: hidden;
+  border-radius: 20px;
   border: 2px solid var(--champagne-gold);
   background: var(--espresso-logo);
+  cursor: pointer;
 }
 
 .interior-frame--main {
   height: 250px;
-  border-radius: 100px 22px 22px 22px;
 }
 
 .interior-frame-pair {
@@ -1492,7 +1532,6 @@ button {
 
 .interior-frame-pair .interior-frame {
   height: 100%;
-  border-radius: 22px 60px 22px 22px;
 }
 
 .interior-frame img {
@@ -1655,34 +1694,39 @@ button {
 
 @media (max-width: 820px) {
   body {
-    padding-bottom: 68px;
+    padding-bottom: 64px;
   }
 
   .hero-stage {
-    height: 100svh;
-    min-height: 540px;
-    max-height: 920px;
-    padding: 8px 10px 12px;
+    height: calc(100svh - 46px);
+    min-height: 530px;
+    max-height: 880px;
+    padding: 8px 10px 10px;
   }
 
   .hero-top-rail {
-    padding: 6px 10px;
+    padding: 7px 12px;
     margin-bottom: 8px;
     gap: 8px;
   }
 
+  .rail-crest {
+    width: 28px;
+    height: 45px;
+  }
+
   .rail-title {
-    font-size: 1.05rem;
+    font-size: 1.18rem;
   }
 
   .rail-sub {
-    font-size: 0.58rem;
+    font-size: 0.62rem;
     letter-spacing: 0.18em;
   }
 
   .rail-call-btn {
-    padding: 6px 11px;
-    font-size: 0.74rem;
+    padding: 7px 12px;
+    font-size: 0.76rem;
   }
 
   .rail-nav,
@@ -1727,27 +1771,30 @@ button {
   }
 
   .hero-crest-seal {
-    bottom: 28px;
-    width: calc(100% - 28px);
-    max-width: 288px;
+    bottom: 24px;
+    width: calc(100% - 20px);
+    max-width: 348px;
   }
 
   .crest-seal-inner {
-    padding: 8px 20px 10px;
+    min-width: 0;
+    width: 100%;
+    padding: 10px 28px 14px;
+    border-radius: 64px;
   }
 
   .hero-exact-logo {
-    width: 106px;
+    width: 108px;
   }
 
   .crest-seal-meta {
-    font-size: 0.62rem;
-    gap: 5px;
+    font-size: 0.66rem;
+    gap: 6px;
   }
 
   .mobile-triptych-dots {
     position: absolute;
-    bottom: 9px;
+    bottom: 7px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 18;
@@ -1768,71 +1815,74 @@ button {
     background: var(--champagne-gold);
   }
 
-  /* Compact Horizontal Swatch Ribbon on Mobile */
+  /* 2-Column All-Visible Service Swatch Grid on Mobile */
   .atelier-showcase {
     padding: 26px 12px;
   }
 
   .swatch-fan-rail {
     border-radius: 24px;
-    padding: 16px 12px;
-    overflow: hidden;
+    padding: 18px 14px;
   }
 
   .nail-swatch-list {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
-    padding-bottom: 6px;
-    scrollbar-width: none;
-    max-width: 100%;
-  }
-
-  .nail-swatch-list::-webkit-scrollbar {
-    display: none;
   }
 
   .nail-swatch {
-    width: auto;
-    flex-shrink: 0;
-    padding: 7px 12px 7px 8px;
+    padding: 8px 10px 8px 8px;
+    gap: 8px;
     border-radius: 999px;
   }
 
-  .nail-swatch.is-active,
-  .nail-swatch:hover {
-    transform: none;
+  .swatch-tip {
+    width: 26px;
+    height: 16px;
+  }
+
+  .swatch-name {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lookbook-stage-header {
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+  }
+
+  .lookbook-active-title {
+    font-size: 1.65rem;
+  }
+
+  .lookbook-active-sub {
+    font-size: 0.76rem;
   }
 
   /* CRITICAL MOBILE RULE: Never let any below-the-fold photo fill the screen!
-     2-column compact silhouette mosaic with max-height 152px per photo */
+     2-column compact lookbook mosaic with max-height 156px per photo */
   .lookbook-mosaic {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
   }
 
   .lookbook-tile {
-    height: 152px;
-    max-height: 152px;
+    height: 156px;
+    max-height: 156px;
+    border-radius: 16px;
     min-width: 0;
   }
 
-  .lookbook-tile.shape-almond {
-    border-radius: 64px 64px 14px 14px;
-  }
-
-  .lookbook-tile.shape-petal {
-    border-radius: 14px 54px 14px 54px;
-  }
-
   .tile-badge {
-    font-size: 0.58rem;
-    padding: 3px 7px;
+    font-size: 0.6rem;
+    padding: 4px 6px;
     bottom: 6px;
-    max-width: 92%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    left: 6px;
+    right: 6px;
+    border-radius: 8px;
   }
 
   /* Promotions Compact Mobile Capsules */
@@ -1922,7 +1972,7 @@ button {
   }
 
   .score-medallion-card {
-    border-radius: 40px 40px 20px 20px;
+    border-radius: 24px;
     padding: 18px 14px;
   }
 
@@ -1948,9 +1998,7 @@ button {
   }
 
   .sanctuary-emblem {
-    width: 112px;
-    height: 112px;
-    max-height: 112px;
+    width: 126px;
   }
 
   .interior-photo-trio {
